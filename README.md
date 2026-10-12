@@ -12,6 +12,8 @@ PDF는 검토용이며 저자·소속 및 최종 투고 양식은 미정입니�
 
 ## 결과 및 검증
 
+[IEIE와 EMF-DINOv2 비교 및 논문 통합 보고서](research/reports/experiment_comparison_integration_ko.md) · [보고서 PDF](research/reports/experiment_comparison_integration_ko.pdf) · [보고서 Word](research/reports/experiment_comparison_integration_ko.docx)
+
 - 조건부 CNN 인코더 전이는 네 학습 규모 모두에서 평균 테스트 MAE를 2.20–3.71% 줄였습니다.
 - 수정한 조건부 HRFormer에서는 25%/100% 조건의 MAE가 6.54%/8.50% 줄었습니다. 이 추가 비교는 타깃 시드 3개와 소스 시드 하나를 사용했습니다.
 - 패턴 정보는 25·50·100%에서 평균 MAE를 낮췄으나 10%에서는 불리했습니다.

@@ -90,7 +90,7 @@ def word(d):
     document.add_heading(d['title'], 0)
     document.add_paragraph(d['authors'])
     document.add_paragraph(d['status'])
-    document.add_heading('초록', 1)
+    document.add_heading(d.get('abstract_label', '초록'), 1)
     document.add_paragraph(d['abstract'])
     document.add_paragraph('주제어: ' + d['keywords'])
     for s in d['sections']:
@@ -161,7 +161,7 @@ def pdf(d):
     caption = ParagraphStyle('CaptionKO', parent=body, fontSize=8, leading=12, spaceAfter=8)
     cell = ParagraphStyle('CellKO', parent=caption, fontSize=7.5, leading=11, spaceAfter=0)
     p = lambda text, style=body: Paragraph(html.escape(text), style)
-    story = [p(d['title'], title), p(d['authors']), p(d['status'], caption), p('초록', heading), p(d['abstract']), p('주제어: ' + d['keywords'])]
+    story = [p(d['title'], title), p(d['authors']), p(d['status'], caption), p(d.get('abstract_label', '초록'), heading), p(d['abstract']), p('주제어: ' + d['keywords'])]
     for s in d['sections']:
         story.append(p(s['title'], heading))
         for b in s['content']:
@@ -180,7 +180,7 @@ def pdf(d):
         story.append(p(reference(i, r), caption))
     def page(canvas, doc):
         canvas.setFont(font, 8)
-        canvas.drawString(48, 24, '한글 연구 논문 초안 · 정규화 영상 평가')
+        canvas.drawString(48, 24, d.get('footer', '한글 연구 논문 초안 · 정규화 영상 평가'))
         canvas.drawRightString(547, 24, str(doc.page))
     document = SimpleDocTemplate(str(OUT / 'manuscript_ko_review.pdf'), pagesize=(595.28,841.89), leftMargin=48, rightMargin=48, topMargin=45, bottomMargin=45, title=d['title'], author=d['authors'])
     document.build(story, onFirstPage=page, onLaterPages=page)
