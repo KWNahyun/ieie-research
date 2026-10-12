@@ -1,0 +1,10 @@
+{
+  "scope": "engineering smoke only",
+  "updates": 8,
+  "epochs": 4,
+  "runtime_seconds": 3.0399201018735766,
+  "best_validation_mae": 0.33415959775447845,
+  "train_loss_first_epoch": 0.2378806322813034,
+  "train_loss_last_epoch": 0.1856483891606331,
+  "test_accessed": false
+}

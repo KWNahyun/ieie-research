@@ -1,0 +1,92 @@
+[
+  {
+    "updates": 250,
+    "train_mae_window": 0.09897226780653,
+    "validation_map_macro_mae": 0.08561908049242838
+  },
+  {
+    "updates": 500,
+    "train_mae_window": 0.08417666414380073,
+    "validation_map_macro_mae": 0.07911565355246976
+  },
+  {
+    "updates": 750,
+    "train_mae_window": 0.0794842866063118,
+    "validation_map_macro_mae": 0.0778268007472867
+  },
+  {
+    "updates": 1000,
+    "train_mae_window": 0.07869455599784851,
+    "validation_map_macro_mae": 0.07705045149085067
+  },
+  {
+    "updates": 1250,
+    "train_mae_window": 0.07724467992782592,
+    "validation_map_macro_mae": 0.07889721494700228
+  },
+  {
+    "updates": 1500,
+    "train_mae_window": 0.06878714503347874,
+    "validation_map_macro_mae": 0.06108263537642502
+  },
+  {
+    "updates": 1750,
+    "train_mae_window": 0.058796989008784294,
+    "validation_map_macro_mae": 0.056304006757480755
+  },
+  {
+    "updates": 2000,
+    "train_mae_window": 0.05554435290396213,
+    "validation_map_macro_mae": 0.0553938072973064
+  },
+  {
+    "updates": 2250,
+    "train_mae_window": 0.05428535749018192,
+    "validation_map_macro_mae": 0.05328381987554687
+  },
+  {
+    "updates": 2500,
+    "train_mae_window": 0.052963959574699404,
+    "validation_map_macro_mae": 0.052399823149400095
+  },
+  {
+    "updates": 2750,
+    "train_mae_window": 0.052278765127062796,
+    "validation_map_macro_mae": 0.05229280604315656
+  },
+  {
+    "updates": 3000,
+    "train_mae_window": 0.05151829589903355,
+    "validation_map_macro_mae": 0.050213288985902355
+  },
+  {
+    "updates": 3250,
+    "train_mae_window": 0.05116712073981762,
+    "validation_map_macro_mae": 0.05336108754965521
+  },
+  {
+    "updates": 3500,
+    "train_mae_window": 0.05037008854746818,
+    "validation_map_macro_mae": 0.050009194841342315
+  },
+  {
+    "updates": 3750,
+    "train_mae_window": 0.049838413655757904,
+    "validation_map_macro_mae": 0.049489053879820166
+  },
+  {
+    "updates": 4000,
+    "train_mae_window": 0.04919963406026363,
+    "validation_map_macro_mae": 0.04913529417521897
+  },
+  {
+    "updates": 4250,
+    "train_mae_window": 0.04900332890450954,
+    "validation_map_macro_mae": 0.050702305590467796
+  },
+  {
+    "updates": 4500,
+    "train_mae_window": 0.048749047562479976,
+    "validation_map_macro_mae": 0.04898471098747991
+  }
+]

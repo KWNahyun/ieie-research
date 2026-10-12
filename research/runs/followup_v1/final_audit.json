@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cells_verified": 152,
+  "sample_metrics_verified": 19152,
+  "raw_dataset_arrays_opened": false,
+  "scope": "supporting follow-up; original test already known",
+  "checks": "immutable snapshots/current code; exact topology/checkpoint/config/normalization; finite strict inference; fixed subsets/train-only stats; validation-selected checkpoint; frozen evaluation manifest; sample/group identities; recalculated MAE/RMSE/SSIM"
+}

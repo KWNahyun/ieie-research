@@ -1,0 +1,5 @@
+{
+  "test_accessed": true,
+  "frozen_manifest_sha256": "9b1ace446b2dea835e6dc19b954cdbb2ec5b9baec667edf3e432deb3019933b1",
+  "policy": "fixed checkpoints; no retraining or selection after test"
+}

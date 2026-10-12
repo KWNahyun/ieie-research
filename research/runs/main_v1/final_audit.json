@@ -1,0 +1,650 @@
+{
+  "stage": "main_v1",
+  "status": "PASS",
+  "runs_verified": 80,
+  "test_predictions_sample_metrics_verified": 10080,
+  "checks": "input/snapshot/code hashes; split isolation; exact frozen checkpoint/config/normalization; strict finite checkpoint inference; train-only normalization and fixed subsets; best validation selection; test sample/group identity; recalculated group/macro errors; analysis aggregates; manifest precedes test access",
+  "test_arrays_opened_by_audit": false,
+  "runs": [
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 10,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 10,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 10,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 10,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 25,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 25,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 25,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 25,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 50,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 50,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 50,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 50,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 100,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 100,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 100,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 100,
+      "target_seed": 0,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 10,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 10,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 10,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 10,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 25,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 25,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 25,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 25,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 50,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 50,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 50,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 50,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 100,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 100,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 100,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 100,
+      "target_seed": 1,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 10,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 10,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 10,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 10,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 25,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 25,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 25,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 25,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 50,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 50,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 50,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 50,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 100,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 100,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 100,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 100,
+      "target_seed": 2,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 10,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 10,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 10,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 10,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 25,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 25,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 25,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 25,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 50,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 50,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 50,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 50,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 100,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 100,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 100,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 100,
+      "target_seed": 3,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 10,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 10,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 10,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 10,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 25,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 25,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 25,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 25,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 50,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 50,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 50,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 50,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "B",
+      "source_seed": null,
+      "budget": 100,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 0,
+      "budget": 100,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 1,
+      "budget": 100,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    },
+    {
+      "model": "D",
+      "source_seed": 2,
+      "budget": 100,
+      "target_seed": 4,
+      "sample_count": 126,
+      "group_count": 14
+    }
+  ]
+}

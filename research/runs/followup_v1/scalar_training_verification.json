@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "cells": 80,
+  "checks": "complete4budget5targetseed/3source topology,strict finite selected checkpoints via runner;pairednormalization/trainIDs",
+  "new_test_evaluation_done": false
+}

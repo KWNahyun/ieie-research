@@ -1,0 +1,11 @@
+{
+  "actual_train_base_ids": [
+    0,
+    1
+  ],
+  "actual_validation_base_ids": [
+    18,
+    19
+  ],
+  "reason": "Clarify actual smoke samples versus normalization-fit IDs; original config/hash preserved"
+}

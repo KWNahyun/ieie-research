@@ -1,0 +1,223 @@
+{
+  "data_root": "/home/ailab/Desktop/data/preprocessing",
+  "inspection": "headers and indices 0, 1536, 3071 only; not full provenance audit",
+  "files": {
+    "1_1_x_image.npy": {
+      "shape": [
+        3072,
+        500,
+        500,
+        3
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 0.0,
+          "max": 0.38823529411764707,
+          "finite": true
+        },
+        "1536": {
+          "min": 0.0,
+          "max": 0.38823529411764707,
+          "finite": true
+        },
+        "3071": {
+          "min": 0.0,
+          "max": 0.38823529411764707,
+          "finite": true
+        }
+      }
+    },
+    "building_mask.npy": {
+      "shape": [
+        3072,
+        500,
+        500
+      ],
+      "dtype": "int64",
+      "samples": {
+        "0": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        },
+        "1536": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        },
+        "3071": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      }
+    },
+    "numeric_to_img.npy": {
+      "shape": [
+        3072,
+        500,
+        500,
+        1
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        },
+        "1536": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        },
+        "3071": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      }
+    },
+    "x_image.npy": {
+      "shape": [
+        3072,
+        500,
+        500,
+        2
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 0.0,
+          "max": 0.38823529411764707,
+          "finite": true
+        },
+        "1536": {
+          "min": 0.0,
+          "max": 0.38823529411764707,
+          "finite": true
+        },
+        "3071": {
+          "min": 0.0,
+          "max": 0.38823529411764707,
+          "finite": true
+        }
+      }
+    },
+    "x_numeric.npy": {
+      "shape": [
+        3072,
+        6
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 12.48,
+          "max": 446.4075711892726,
+          "finite": true
+        },
+        "1536": {
+          "min": 12.71,
+          "max": 241.98000000000002,
+          "finite": true
+        },
+        "3071": {
+          "min": 11.0,
+          "max": 121.96637556139711,
+          "finite": true
+        }
+      }
+    },
+    "x_pattern_hori.npy": {
+      "shape": [
+        3072,
+        360
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 18.36,
+          "max": 58.36,
+          "finite": true
+        },
+        "1536": {
+          "min": 18.36,
+          "max": 58.36,
+          "finite": true
+        },
+        "3071": {
+          "min": 17.91,
+          "max": 57.91,
+          "finite": true
+        }
+      }
+    },
+    "x_pattern_vert.npy": {
+      "shape": [
+        3072,
+        360
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 18.36,
+          "max": 58.36,
+          "finite": true
+        },
+        "1536": {
+          "min": 18.36,
+          "max": 58.36,
+          "finite": true
+        },
+        "3071": {
+          "min": 17.91,
+          "max": 57.91,
+          "finite": true
+        }
+      }
+    },
+    "y.npy": {
+      "shape": [
+        3072,
+        500,
+        500
+      ],
+      "dtype": "float64",
+      "samples": {
+        "0": {
+          "min": 0.0,
+          "max": 0.9882352941176471,
+          "finite": true
+        },
+        "1536": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        },
+        "3071": {
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      }
+    }
+  },
+  "ieie_sample_correspondence": {
+    "0": {
+      "building_channel0_matches": true,
+      "beam_channel0_matches": true,
+      "target_matches": true
+    },
+    "1536": {
+      "building_channel0_matches": true,
+      "beam_channel0_matches": true,
+      "target_matches": true
+    },
+    "3071": {
+      "building_channel0_matches": true,
+      "beam_channel0_matches": true,
+      "target_matches": true
+    }
+  }
+}

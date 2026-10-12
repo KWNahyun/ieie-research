@@ -1,0 +1,318 @@
+{
+  "name": "spatial_ablation_v1",
+  "jobs": [
+    {
+      "model": "A",
+      "budget": 10,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed0"
+    },
+    {
+      "model": "C",
+      "budget": 10,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget10_seed0"
+    },
+    {
+      "model": "A",
+      "budget": 25,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget25_seed0"
+    },
+    {
+      "model": "C",
+      "budget": 25,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget25_seed0"
+    },
+    {
+      "model": "A",
+      "budget": 50,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget50_seed0"
+    },
+    {
+      "model": "C",
+      "budget": 50,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget50_seed0"
+    },
+    {
+      "model": "A",
+      "budget": 100,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget100_seed0"
+    },
+    {
+      "model": "C",
+      "budget": 100,
+      "seed": 0,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget100_seed0"
+    },
+    {
+      "model": "A",
+      "budget": 10,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed1"
+    },
+    {
+      "model": "C",
+      "budget": 10,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget10_seed1"
+    },
+    {
+      "model": "A",
+      "budget": 25,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget25_seed1"
+    },
+    {
+      "model": "C",
+      "budget": 25,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget25_seed1"
+    },
+    {
+      "model": "A",
+      "budget": 50,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget50_seed1"
+    },
+    {
+      "model": "C",
+      "budget": 50,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget50_seed1"
+    },
+    {
+      "model": "A",
+      "budget": 100,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget100_seed1"
+    },
+    {
+      "model": "C",
+      "budget": 100,
+      "seed": 1,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget100_seed1"
+    },
+    {
+      "model": "A",
+      "budget": 10,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed2"
+    },
+    {
+      "model": "C",
+      "budget": 10,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget10_seed2"
+    },
+    {
+      "model": "A",
+      "budget": 25,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget25_seed2"
+    },
+    {
+      "model": "C",
+      "budget": 25,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget25_seed2"
+    },
+    {
+      "model": "A",
+      "budget": 50,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget50_seed2"
+    },
+    {
+      "model": "C",
+      "budget": 50,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget50_seed2"
+    },
+    {
+      "model": "A",
+      "budget": 100,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget100_seed2"
+    },
+    {
+      "model": "C",
+      "budget": 100,
+      "seed": 2,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget100_seed2"
+    },
+    {
+      "model": "A",
+      "budget": 10,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed3"
+    },
+    {
+      "model": "C",
+      "budget": 10,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget10_seed3"
+    },
+    {
+      "model": "A",
+      "budget": 25,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget25_seed3"
+    },
+    {
+      "model": "C",
+      "budget": 25,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget25_seed3"
+    },
+    {
+      "model": "A",
+      "budget": 50,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget50_seed3"
+    },
+    {
+      "model": "C",
+      "budget": 50,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget50_seed3"
+    },
+    {
+      "model": "A",
+      "budget": 100,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget100_seed3"
+    },
+    {
+      "model": "C",
+      "budget": 100,
+      "seed": 3,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget100_seed3"
+    },
+    {
+      "model": "A",
+      "budget": 10,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed4"
+    },
+    {
+      "model": "C",
+      "budget": 10,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget10_seed4"
+    },
+    {
+      "model": "A",
+      "budget": 25,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget25_seed4"
+    },
+    {
+      "model": "C",
+      "budget": 25,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget25_seed4"
+    },
+    {
+      "model": "A",
+      "budget": 50,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget50_seed4"
+    },
+    {
+      "model": "C",
+      "budget": 50,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget50_seed4"
+    },
+    {
+      "model": "A",
+      "budget": 100,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget100_seed4"
+    },
+    {
+      "model": "C",
+      "budget": 100,
+      "seed": 4,
+      "learning_rate": 0.0003,
+      "folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/C_budget100_seed4"
+    }
+  ],
+  "input_sha256": {
+    "spatial_ablation_protocol.md": "911c860b668ac14535f502d2c279ff2854fc8ca19a4ed3b18706df685fc0e56e",
+    "run_spatial_ablation.py": "533b23d0015a906c7bdb351519c8bdb0e123ed890d754311880573414671f1cd",
+    "evaluate_spatial_ablation.py": "0c722e91f794341ce24653d952ab4bf8816713b8c3e89acda8592de2085fb1f3",
+    "analyze_spatial_ablation.py": "bdd22226d9e06bad41cdb8735a5827a53e7ac730e011d83f213e395e24bb6b2c",
+    "evaluate_main.py": "097b79107c487ffa0d82977c470f7993e2752507a050bd009f0bf2eea2bf034c",
+    "analyze_main.py": "85a3d199b5cf535bd40536b0bc10728c6e5d49c668e726cfa78bff6fc4513d69",
+    "train_baseline.py": "959b28b1a036437625e8c082f5da8938e0733fc1d678b99461814b0b1cd7a77f",
+    "data_pipeline.py": "76cb6e9212215dfc3fd56dc62f3dcb6e22eb1539348dd1631a0d71b0134d7e6c",
+    "baseline_model.py": "631118f8cc86632d3ff0c41122adb9ded30f55aa1bd7ca6ea57e667835b12c4d",
+    "data_contract.json": "54e4c34e4673c8ce55ea80450b70772962d6895695e9820c2eed7b29771c4a78",
+    "target_manifest.csv": "962774bdf3983679571a71d54140c4d73f983c9d9709bce0993195a9023d294e",
+    "splits/target_groups.json": "f649fcfb7f8031b2bb885a9038cd462ed9284589934ed3042213ebbb030b9045",
+    "splits/target_subsets.json": "5dae561b173132f9a68732e39b5867db72d6ddc6483d9fd866afcd3211845250"
+  },
+  "source_sha256": "aa6bd82bc7b3497056c1028064188dce39ecbf44a2a9abf399d7b26354c14c77",
+  "split": {
+    "train": {
+      "base_count": 534,
+      "group_count": 60
+    },
+    "validation": {
+      "base_count": 108,
+      "group_count": 12
+    },
+    "test": {
+      "base_count": 126,
+      "group_count": 14
+    }
+  },
+  "gpu": 2,
+  "deadline_utc_epoch": 1791629194,
+  "test_accessed": false
+}

@@ -1,0 +1,77 @@
+{
+  "name": "source_crossed_v1",
+  "new_source_conditions": [
+    [
+      500,
+      1
+    ],
+    [
+      500,
+      2
+    ],
+    [
+      4500,
+      1
+    ],
+    [
+      4500,
+      2
+    ]
+  ],
+  "target_jobs": [
+    {
+      "model": "D",
+      "budget": 25,
+      "seed": 0,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "seed": 0,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 25,
+      "seed": 1,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "seed": 1,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 25,
+      "seed": 2,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "seed": 2,
+      "learning_rate": 0.0003
+    }
+  ],
+  "gpu": 2,
+  "input_sha256": {
+    "source_crossed_protocol.md": "48f1a8385fbde2455fccee2644567cf4fa493cfb82e2e46abe0fad6a9a8bab6f",
+    "run_source_crossed.py": "d88aea2b87fb8db1ac4213286a6782da3ddb79ade50b56a3f60deef18b68cec0",
+    "analyze_source_crossed.py": "23000e07647aa3ec82cb4fe6a2d803fa975612b70a3b916ce524f7e8b453a84e",
+    "train_source.py": "1e6cc04ae5e5bfc2d6c6f9455a67cc93240f6f939c7f90904c9a162e82f74395",
+    "train_baseline.py": "959b28b1a036437625e8c082f5da8938e0733fc1d678b99461814b0b1cd7a77f",
+    "baseline_model.py": "631118f8cc86632d3ff0c41122adb9ded30f55aa1bd7ca6ea57e667835b12c4d",
+    "data_pipeline.py": "76cb6e9212215dfc3fd56dc62f3dcb6e22eb1539348dd1631a0d71b0134d7e6c",
+    "source_manifest.csv": "2afebe3778edc2f6b1c31c8a20abe4ecc574218e0798fe12e6f999e4137113d3",
+    "target_manifest.csv": "962774bdf3983679571a71d54140c4d73f983c9d9709bce0993195a9023d294e",
+    "data_contract.json": "54e4c34e4673c8ce55ea80450b70772962d6895695e9820c2eed7b29771c4a78",
+    "splits/source_maps.json": "44c207d0d7bf2fb03fda62f2df827164c43efa1fa6c199fd0ed5454c5fed66b4",
+    "splits/target_groups.json": "f649fcfb7f8031b2bb885a9038cd462ed9284589934ed3042213ebbb030b9045",
+    "splits/target_subsets.json": "5dae561b173132f9a68732e39b5867db72d6ddc6483d9fd866afcd3211845250"
+  },
+  "deadline_utc_epoch": 1791629194,
+  "test_accessed": false
+}

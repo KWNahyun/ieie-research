@@ -1,0 +1,100 @@
+{
+  "name": "convergence_v1",
+  "jobs": [
+    {
+      "model": "B",
+      "budget": 25,
+      "seed": 0,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 25,
+      "seed": 0,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "B",
+      "budget": 100,
+      "seed": 0,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "seed": 0,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "B",
+      "budget": 25,
+      "seed": 1,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 25,
+      "seed": 1,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "B",
+      "budget": 100,
+      "seed": 1,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "seed": 1,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "B",
+      "budget": 25,
+      "seed": 2,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 25,
+      "seed": 2,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "B",
+      "budget": 100,
+      "seed": 2,
+      "learning_rate": 0.0003
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "seed": 2,
+      "learning_rate": 0.0003
+    }
+  ],
+  "maximum_epochs": 150,
+  "patience": 25,
+  "batch_size": 4,
+  "base_channels": 16,
+  "initialization": "fresh paired target initialization; encoder-only source transfer for D",
+  "source_checkpoint_sha256": "aa6bd82bc7b3497056c1028064188dce39ecbf44a2a9abf399d7b26354c14c77",
+  "input_sha256": {
+    "data_contract.json": "54e4c34e4673c8ce55ea80450b70772962d6895695e9820c2eed7b29771c4a78",
+    "target_manifest.csv": "962774bdf3983679571a71d54140c4d73f983c9d9709bce0993195a9023d294e",
+    "splits/target_groups.json": "f649fcfb7f8031b2bb885a9038cd462ed9284589934ed3042213ebbb030b9045",
+    "splits/target_subsets.json": "5dae561b173132f9a68732e39b5867db72d6ddc6483d9fd866afcd3211845250",
+    "data_pipeline.py": "76cb6e9212215dfc3fd56dc62f3dcb6e22eb1539348dd1631a0d71b0134d7e6c",
+    "baseline_model.py": "631118f8cc86632d3ff0c41122adb9ded30f55aa1bd7ca6ea57e667835b12c4d",
+    "train_baseline.py": "959b28b1a036437625e8c082f5da8938e0733fc1d678b99461814b0b1cd7a77f",
+    "run_convergence.py": "9fedb3e31faabd84be579547a32f98df06835fa70e90e1ff4a1ea5d9ebe6aa7a",
+    "analyze_convergence.py": "5b300a3f5a976dff15ffbb567fd315f02b40ce732f874cdd323ebebed8e7b69d",
+    "convergence_protocol.md": "643d3607c24dd7ae68f89ce5f944e842cf69de91f50b3ea4c59533181021d95a"
+  },
+  "missing_target_files": [],
+  "test_accessed": false,
+  "gpu_ids": [
+    2
+  ]
+}

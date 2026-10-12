@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "budgets": [
+    {
+      "budget": 10,
+      "bootstrap95_recomputed": [
+        0.00046310179029153533,
+        0.0046422001443527415
+      ],
+      "positive_test_geometry_groups": 10,
+      "rmse_and_seed_variation_verified": true
+    },
+    {
+      "budget": 25,
+      "bootstrap95_recomputed": [
+        0.0018231719055720557,
+        0.004248428528133045
+      ],
+      "positive_test_geometry_groups": 13,
+      "rmse_and_seed_variation_verified": true
+    },
+    {
+      "budget": 50,
+      "bootstrap95_recomputed": [
+        0.0015571616702373101,
+        0.0032197744104636703
+      ],
+      "positive_test_geometry_groups": 13,
+      "rmse_and_seed_variation_verified": true
+    },
+    {
+      "budget": 100,
+      "bootstrap95_recomputed": [
+        0.0007535780754886486,
+        0.002567616471202761
+      ],
+      "positive_test_geometry_groups": 12,
+      "rmse_and_seed_variation_verified": true
+    }
+  ],
+  "test_arrays_opened": false
+}

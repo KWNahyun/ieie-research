@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "budget": 25,
+      "family": "cnn",
+      "B_mae": 0.08433589073164123,
+      "D_mae": 0.08053285190983424,
+      "relative_reduction_percent": 4.509395452890099,
+      "target_seeds": [
+        0,
+        1,
+        2
+      ],
+      "source_seed_D": 0
+    },
+    {
+      "budget": 25,
+      "family": "hrt_adapter",
+      "B_mae": 0.07194608474574077,
+      "D_mae": 0.06723770207513578,
+      "relative_reduction_percent": 6.544320913701593,
+      "target_seeds": [
+        0,
+        1,
+        2
+      ],
+      "source_seed_D": 0
+    },
+    {
+      "budget": 100,
+      "family": "cnn",
+      "B_mae": 0.07375778891540394,
+      "D_mae": 0.07148793379150371,
+      "relative_reduction_percent": 3.077444643173376,
+      "target_seeds": [
+        0,
+        1,
+        2
+      ],
+      "source_seed_D": 0
+    },
+    {
+      "budget": 100,
+      "family": "hrt_adapter",
+      "B_mae": 0.06222607093868116,
+      "D_mae": 0.05693698525133114,
+      "relative_reduction_percent": 8.499790534038372,
+      "target_seeds": [
+        0,
+        1,
+        2
+      ],
+      "source_seed_D": 0
+    }
+  ],
+  "scope": "same geometry subsets/target seeds0\u20132/source0;descriptivecross-family comparison;capacity/conditioning/training LR differ",
+  "published_outdoor_scores_compared": false
+}

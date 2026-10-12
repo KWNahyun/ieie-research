@@ -1,0 +1,46 @@
+{
+  "name": "pilot_v1",
+  "source_updates": 1500,
+  "source_seed": 0,
+  "source_batch_size": 16,
+  "target_models": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "budgets": [
+    25,
+    100
+  ],
+  "target_seeds": [
+    0,
+    1,
+    2
+  ],
+  "base_channels": 16,
+  "target_batch_size": 4,
+  "lr_candidates": [
+    0.0001,
+    0.0003
+  ],
+  "lr_screen": {
+    "budget": 25,
+    "seed": 0,
+    "maximum_epochs": 10,
+    "patience": 3,
+    "selection": "minimum validation group macro MAE, independent per model"
+  },
+  "final_maximum_epochs": 30,
+  "final_patience": 8,
+  "source_validation": "fixed Tx IDs 0 and 40 on all held-out validation maps",
+  "transfer": "encoder only, full fine-tuning from update 1; target decoder/head/condition freshly initialized",
+  "metrics": "whole-raster normalized-image group macro MAE/RMSE",
+  "test_accessed": false,
+  "gpu_ids": [
+    1,
+    2
+  ],
+  "geometry": "image proxy; geographic overlap unresolved",
+  "limits": "source fixed-update pilot and target epoch-limited fits; inspect convergence before final claims"
+}

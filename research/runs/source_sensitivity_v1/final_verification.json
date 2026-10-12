@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_checkpoints_verified": 5,
+  "target_checkpoints_verified": 30,
+  "analysis_sha256": "5823b9c2022915141db746a029f5345584f7a643f9854a2fdc8392ef437a5707",
+  "pre_main_gate_hash_unchanged": true,
+  "test_arrays_opened": false
+}

@@ -1,0 +1,3235 @@
+{
+  "scope": "available metadata and64x64 D4 whole-frame operational-proxy matching; not physical/GIS overlap certification",
+  "target_images_checked": 86,
+  "source_images_checked": 701,
+  "png_geographic_metadata_count": 0,
+  "spreadsheet_headers": [
+    "\ubd84\ub958",
+    "building_file",
+    "antenna_pattern",
+    "freq.",
+    "ant1-coord",
+    "ant1-downtilt",
+    "ant1-power",
+    "ant1-azimuth",
+    "ant2-coord",
+    "ant2-downtilt",
+    "ant2-power",
+    "ant2-azimuth",
+    "ant3-coord",
+    "ant3-downtilt",
+    "ant3-power",
+    "ant3-azimuth"
+  ],
+  "spreadsheet_geographic_headers": [],
+  "target_spatial_vector_or_gis_assets": [],
+  "source_polygon_example": {
+    "sample_path": "/data/knhyun/IEIE/data/RadioMapSeer/polygon/buildings_complete/0.json",
+    "container": "list",
+    "sample_polygon_bounds": [
+      34.0,
+      256.0
+    ],
+    "geographic_reference_attached": false
+  },
+  "normalization": "nearest-neighbor64x64; target raw B/G bothzero versus source binary nonzero;8 D4 transforms",
+  "pair_transform_comparisons": 482288,
+  "strong_proxy_correspondences_threshold": 0.75,
+  "strong_proxy_correspondences": [],
+  "maximum_proxy_iou": 0.49035608768463135,
+  "correspondences": [
+    {
+      "target_geometry_group": 0,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2258613407611847
+        },
+        {
+          "source_map_id": 661,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.22317813336849213
+        },
+        {
+          "source_map_id": 302,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.21772852540016174
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.21654707193374634
+        },
+        {
+          "source_map_id": 221,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2153846174478531
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 1,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 127,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.38835376501083374
+        },
+        {
+          "source_map_id": 119,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.37281861901283264
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3527508080005646
+        },
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3474337160587311
+        },
+        {
+          "source_map_id": 119,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3471717834472656
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 2,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 79,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.29916566610336304
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.28158295154571533
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2802838385105133
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26599809527397156
+        },
+        {
+          "source_map_id": 330,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2560296952724457
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 3,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 674,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.22401614487171173
+        },
+        {
+          "source_map_id": 653,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.21585902571678162
+        },
+        {
+          "source_map_id": 89,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.19923003017902374
+        },
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.19773095846176147
+        },
+        {
+          "source_map_id": 607,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.19644619524478912
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 4,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3860659897327423
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.36100196838378906
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3296482264995575
+        },
+        {
+          "source_map_id": 672,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2940063178539276
+        },
+        {
+          "source_map_id": 644,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2899584174156189
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 5,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.22433264553546906
+        },
+        {
+          "source_map_id": 518,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.22368420660495758
+        },
+        {
+          "source_map_id": 527,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2221577763557434
+        },
+        {
+          "source_map_id": 347,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2207317054271698
+        },
+        {
+          "source_map_id": 283,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.21853281557559967
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 6,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3781353533267975
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.35820895433425903
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.31314679980278015
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3128944933414459
+        },
+        {
+          "source_map_id": 582,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3115052282810211
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 7,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 663,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.30942896008491516
+        },
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2948128581047058
+        },
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2946428656578064
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.28736209869384766
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.28285858035087585
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 8,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 543,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.17504051327705383
+        },
+        {
+          "source_map_id": 91,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.16972704231739044
+        },
+        {
+          "source_map_id": 543,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.16559486091136932
+        },
+        {
+          "source_map_id": 494,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.16409623622894287
+        },
+        {
+          "source_map_id": 93,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.16301703453063965
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 9,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.34485405683517456
+        },
+        {
+          "source_map_id": 661,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.34440016746520996
+        },
+        {
+          "source_map_id": 570,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3242204189300537
+        },
+        {
+          "source_map_id": 277,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3241260349750519
+        },
+        {
+          "source_map_id": 678,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32318180799484253
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 10,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 233,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2784717082977295
+        },
+        {
+          "source_map_id": 653,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.277515709400177
+        },
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2745762765407562
+        },
+        {
+          "source_map_id": 101,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2667560279369354
+        },
+        {
+          "source_map_id": 692,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2665903866291046
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 11,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 104,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2910406291484833
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2869003713130951
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.28495660424232483
+        },
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.28445884585380554
+        },
+        {
+          "source_map_id": 686,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2723502218723297
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 12,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.34806376695632935
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3441881537437439
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32665422558784485
+        },
+        {
+          "source_map_id": 277,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.31728172302246094
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3052261769771576
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 13,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.4109589159488678
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3684210479259491
+        },
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.32002535462379456
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.31430014967918396
+        },
+        {
+          "source_map_id": 488,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3140053451061249
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 14,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.324116051197052
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.30416011810302734
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.29745957255363464
+        },
+        {
+          "source_map_id": 127,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2962648570537567
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2956642210483551
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 15,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.4214628338813782
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3960149586200714
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3709743022918701
+        },
+        {
+          "source_map_id": 653,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3514644205570221
+        },
+        {
+          "source_map_id": 514,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3471434712409973
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 16,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 576,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3458458483219147
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3070422410964966
+        },
+        {
+          "source_map_id": 301,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3057522177696228
+        },
+        {
+          "source_map_id": 514,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.30344828963279724
+        },
+        {
+          "source_map_id": 582,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.30307328701019287
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 17,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 223,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26048678159713745
+        },
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2542372941970825
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2489117532968521
+        },
+        {
+          "source_map_id": 44,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.24802233278751373
+        },
+        {
+          "source_map_id": 301,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.24788983166217804
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 18,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.36370596289634705
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.355403333902359
+        },
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3232323229312897
+        },
+        {
+          "source_map_id": 127,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3119522035121918
+        },
+        {
+          "source_map_id": 39,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.31160983443260193
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 19,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3272727131843567
+        },
+        {
+          "source_map_id": 663,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3076923191547394
+        },
+        {
+          "source_map_id": 33,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.279941588640213
+        },
+        {
+          "source_map_id": 127,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2737038731575012
+        },
+        {
+          "source_map_id": 575,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26555386185646057
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 20,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.30346667766571045
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2829396426677704
+        },
+        {
+          "source_map_id": 661,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2552870213985443
+        },
+        {
+          "source_map_id": 678,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.24710221588611603
+        },
+        {
+          "source_map_id": 79,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.24584323167800903
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 21,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 232,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.28650274872779846
+        },
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.28629031777381897
+        },
+        {
+          "source_map_id": 339,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.28272250294685364
+        },
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.27740493416786194
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.27403658628463745
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 22,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.28080227971076965
+        },
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2807745635509491
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.27592769265174866
+        },
+        {
+          "source_map_id": 336,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.27479439973831177
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26579204201698303
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 23,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 584,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32879146933555603
+        },
+        {
+          "source_map_id": 39,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.31560975313186646
+        },
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.30751174688339233
+        },
+        {
+          "source_map_id": 223,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2976623475551605
+        },
+        {
+          "source_map_id": 660,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.29586562514305115
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 24,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 223,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.24350282549858093
+        },
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23517882823944092
+        },
+        {
+          "source_map_id": 44,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23189134895801544
+        },
+        {
+          "source_map_id": 277,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.23035097122192383
+        },
+        {
+          "source_map_id": 39,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.22824974358081818
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 25,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 566,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.28429320454597473
+        },
+        {
+          "source_map_id": 566,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.275611013174057
+        },
+        {
+          "source_map_id": 482,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2736128866672516
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.27177032828330994
+        },
+        {
+          "source_map_id": 570,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2694775462150574
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 26,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.235615074634552
+        },
+        {
+          "source_map_id": 559,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.22964508831501007
+        },
+        {
+          "source_map_id": 33,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.22811917960643768
+        },
+        {
+          "source_map_id": 68,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2245333343744278
+        },
+        {
+          "source_map_id": 91,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.22252130508422852
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 27,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 302,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2801535129547119
+        },
+        {
+          "source_map_id": 39,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.27346938848495483
+        },
+        {
+          "source_map_id": 560,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26179516315460205
+        },
+        {
+          "source_map_id": 434,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.24790151417255402
+        },
+        {
+          "source_map_id": 661,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.24282237887382507
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 28,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 105,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2906024158000946
+        },
+        {
+          "source_map_id": 482,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2784014344215393
+        },
+        {
+          "source_map_id": 110,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.27532097697257996
+        },
+        {
+          "source_map_id": 482,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.272686630487442
+        },
+        {
+          "source_map_id": 488,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2601366639137268
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 29,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.27302417159080505
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.24914342164993286
+        },
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2464408427476883
+        },
+        {
+          "source_map_id": 527,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2386167198419571
+        },
+        {
+          "source_map_id": 502,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23372286558151245
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 30,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 582,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.292147159576416
+        },
+        {
+          "source_map_id": 277,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26986584067344666
+        },
+        {
+          "source_map_id": 653,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2683347761631012
+        },
+        {
+          "source_map_id": 678,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.26454445719718933
+        },
+        {
+          "source_map_id": 485,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26382046937942505
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 31,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.25873127579689026
+        },
+        {
+          "source_map_id": 514,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23766815662384033
+        },
+        {
+          "source_map_id": 653,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23654916882514954
+        },
+        {
+          "source_map_id": 691,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23213021457195282
+        },
+        {
+          "source_map_id": 119,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23166023194789886
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 32,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 673,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.19505494832992554
+        },
+        {
+          "source_map_id": 23,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.1948608160018921
+        },
+        {
+          "source_map_id": 68,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.19442865252494812
+        },
+        {
+          "source_map_id": 502,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.19336384534835815
+        },
+        {
+          "source_map_id": 692,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.1920289844274521
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 33,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 584,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2612752616405487
+        },
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.24477149546146393
+        },
+        {
+          "source_map_id": 662,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.24357405304908752
+        },
+        {
+          "source_map_id": 393,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.23356008529663086
+        },
+        {
+          "source_map_id": 637,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.21674877405166626
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 34,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 105,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2900347113609314
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.27596697211265564
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2536293864250183
+        },
+        {
+          "source_map_id": 221,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2497883141040802
+        },
+        {
+          "source_map_id": 89,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23635004460811615
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 35,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 699,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.16875872015953064
+        },
+        {
+          "source_map_id": 653,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.16267941892147064
+        },
+        {
+          "source_map_id": 453,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.15109573304653168
+        },
+        {
+          "source_map_id": 355,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.14882226288318634
+        },
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.14261460304260254
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 36,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.342185914516449
+        },
+        {
+          "source_map_id": 336,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.28250652551651
+        },
+        {
+          "source_map_id": 302,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2700054347515106
+        },
+        {
+          "source_map_id": 307,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2663642168045044
+        },
+        {
+          "source_map_id": 271,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2603479325771332
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 37,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 302,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2944297194480896
+        },
+        {
+          "source_map_id": 679,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.29392972588539124
+        },
+        {
+          "source_map_id": 302,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.29305776953697205
+        },
+        {
+          "source_map_id": 621,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.28259432315826416
+        },
+        {
+          "source_map_id": 39,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2825443744659424
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 38,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.43371522426605225
+        },
+        {
+          "source_map_id": 666,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.35753676295280457
+        },
+        {
+          "source_map_id": 667,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3262679874897003
+        },
+        {
+          "source_map_id": 629,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.28136199712753296
+        },
+        {
+          "source_map_id": 678,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.27787405252456665
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 39,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 79,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2575957775115967
+        },
+        {
+          "source_map_id": 79,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2551087737083435
+        },
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2540263533592224
+        },
+        {
+          "source_map_id": 453,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2443026453256607
+        },
+        {
+          "source_map_id": 514,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.23757454752922058
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 40,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 661,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2439897656440735
+        },
+        {
+          "source_map_id": 686,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23826174437999725
+        },
+        {
+          "source_map_id": 223,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2288135588169098
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.22724853456020355
+        },
+        {
+          "source_map_id": 678,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2239915132522583
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 41,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 571,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2672218084335327
+        },
+        {
+          "source_map_id": 692,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2609523832798004
+        },
+        {
+          "source_map_id": 666,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.25820016860961914
+        },
+        {
+          "source_map_id": 667,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2401960790157318
+        },
+        {
+          "source_map_id": 663,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.22972002625465393
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 42,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2954399585723877
+        },
+        {
+          "source_map_id": 582,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2889237105846405
+        },
+        {
+          "source_map_id": 392,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2870890200138092
+        },
+        {
+          "source_map_id": 119,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.28334322571754456
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.27992182970046997
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 43,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3434104919433594
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3432038724422455
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3421425223350525
+        },
+        {
+          "source_map_id": 485,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3320519030094147
+        },
+        {
+          "source_map_id": 678,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32329028844833374
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 44,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3347547948360443
+        },
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.31420573592185974
+        },
+        {
+          "source_map_id": 434,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.29738155007362366
+        },
+        {
+          "source_map_id": 39,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26522910594940186
+        },
+        {
+          "source_map_id": 434,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.259685218334198
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 45,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 339,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3581081032752991
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3338645398616791
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3333333432674408
+        },
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.32732394337654114
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32571685314178467
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 46,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.22536349296569824
+        },
+        {
+          "source_map_id": 600,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.20718462765216827
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.1945701390504837
+        },
+        {
+          "source_map_id": 600,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.19322873651981354
+        },
+        {
+          "source_map_id": 663,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.19073782861232758
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 47,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23875661194324493
+        },
+        {
+          "source_map_id": 607,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.23346613347530365
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.23014168441295624
+        },
+        {
+          "source_map_id": 295,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.22808092832565308
+        },
+        {
+          "source_map_id": 695,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.22807016968727112
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 48,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.49035608768463135
+        },
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.4568527936935425
+        },
+        {
+          "source_map_id": 666,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.31993696093559265
+        },
+        {
+          "source_map_id": 39,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.31528663635253906
+        },
+        {
+          "source_map_id": 666,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3116679787635803
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 49,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3201219439506531
+        },
+        {
+          "source_map_id": 667,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3141123056411743
+        },
+        {
+          "source_map_id": 629,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.31284916400909424
+        },
+        {
+          "source_map_id": 629,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3055555522441864
+        },
+        {
+          "source_map_id": 653,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.30326294898986816
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 50,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 290,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.20895522832870483
+        },
+        {
+          "source_map_id": 277,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.19672131538391113
+        },
+        {
+          "source_map_id": 527,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.19426336884498596
+        },
+        {
+          "source_map_id": 89,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.19412288069725037
+        },
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.18896447122097015
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 51,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2208806872367859
+        },
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2208806872367859
+        },
+        {
+          "source_map_id": 106,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.21081745624542236
+        },
+        {
+          "source_map_id": 260,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.20454545319080353
+        },
+        {
+          "source_map_id": 676,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.18792971968650818
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 52,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 653,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.34580838680267334
+        },
+        {
+          "source_map_id": 39,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3254786431789398
+        },
+        {
+          "source_map_id": 514,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.30834072828292847
+        },
+        {
+          "source_map_id": 336,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2991703152656555
+        },
+        {
+          "source_map_id": 660,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2971576154232025
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 53,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 644,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.1746143102645874
+        },
+        {
+          "source_map_id": 548,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.17407406866550446
+        },
+        {
+          "source_map_id": 541,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.17298735678195953
+        },
+        {
+          "source_map_id": 442,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.17206624150276184
+        },
+        {
+          "source_map_id": 301,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.16784274578094482
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 54,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.25196439027786255
+        },
+        {
+          "source_map_id": 488,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.24730174243450165
+        },
+        {
+          "source_map_id": 277,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2430800199508667
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.23514211177825928
+        },
+        {
+          "source_map_id": 482,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.23045821487903595
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 55,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.18486012518405914
+        },
+        {
+          "source_map_id": 330,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.18044355511665344
+        },
+        {
+          "source_map_id": 653,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.1794145405292511
+        },
+        {
+          "source_map_id": 290,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.1755458563566208
+        },
+        {
+          "source_map_id": 142,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.17454545199871063
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 56,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 653,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.16378316283226013
+        },
+        {
+          "source_map_id": 659,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.1508379876613617
+        },
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.14322692155838013
+        },
+        {
+          "source_map_id": 99,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.142673522233963
+        },
+        {
+          "source_map_id": 293,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.13502538204193115
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 57,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 661,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.4141986072063446
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.4124809801578522
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.40181270241737366
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3707672655582428
+        },
+        {
+          "source_map_id": 339,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3696797788143158
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 58,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 39,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.4055532217025757
+        },
+        {
+          "source_map_id": 514,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.38236427307128906
+        },
+        {
+          "source_map_id": 441,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.381433367729187
+        },
+        {
+          "source_map_id": 514,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3775901794433594
+        },
+        {
+          "source_map_id": 574,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.37202489376068115
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 59,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 661,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.33196908235549927
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3234183192253113
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.31682735681533813
+        },
+        {
+          "source_map_id": 574,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3102758824825287
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3094135820865631
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 60,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 667,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2771163880825043
+        },
+        {
+          "source_map_id": 667,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.266229510307312
+        },
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2646860182285309
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26118677854537964
+        },
+        {
+          "source_map_id": 582,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.25321006774902344
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 61,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 482,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3873445391654968
+        },
+        {
+          "source_map_id": 488,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.38559162616729736
+        },
+        {
+          "source_map_id": 330,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.37870723009109497
+        },
+        {
+          "source_map_id": 488,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3783884048461914
+        },
+        {
+          "source_map_id": 482,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.37577077746391296
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 62,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.24447225034236908
+        },
+        {
+          "source_map_id": 661,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.23856370151042938
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23827314376831055
+        },
+        {
+          "source_map_id": 582,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23782961070537567
+        },
+        {
+          "source_map_id": 277,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.23737864196300507
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 63,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3895495533943176
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3713582158088684
+        },
+        {
+          "source_map_id": 76,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.36767759919166565
+        },
+        {
+          "source_map_id": 574,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3655953109264374
+        },
+        {
+          "source_map_id": 514,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.365091472864151
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 64,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 93,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.25027933716773987
+        },
+        {
+          "source_map_id": 691,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2450415939092636
+        },
+        {
+          "source_map_id": 572,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.24041812121868134
+        },
+        {
+          "source_map_id": 434,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23874643445014954
+        },
+        {
+          "source_map_id": 91,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23299632966518402
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 65,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 105,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.36182108521461487
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.35406872630119324
+        },
+        {
+          "source_map_id": 574,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3458256125450134
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.34341713786125183
+        },
+        {
+          "source_map_id": 482,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3429643511772156
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 66,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 686,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.324584424495697
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3213159143924713
+        },
+        {
+          "source_map_id": 339,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.31962695717811584
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.31953194737434387
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.31775280833244324
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 67,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.4448348581790924
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.4218533933162689
+        },
+        {
+          "source_map_id": 574,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3988095223903656
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3854447305202484
+        },
+        {
+          "source_map_id": 514,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3746418356895447
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 68,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 89,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3229166567325592
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32105809450149536
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.31260719895362854
+        },
+        {
+          "source_map_id": 570,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.30599215626716614
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.30532485246658325
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 69,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 127,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.436053603887558
+        },
+        {
+          "source_map_id": 39,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.38348081707954407
+        },
+        {
+          "source_map_id": 660,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3795088231563568
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3789854943752289
+        },
+        {
+          "source_map_id": 660,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3664005994796753
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 70,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 660,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.32460734248161316
+        },
+        {
+          "source_map_id": 119,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3081110417842865
+        },
+        {
+          "source_map_id": 76,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.29676172137260437
+        },
+        {
+          "source_map_id": 277,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2963133752346039
+        },
+        {
+          "source_map_id": 496,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.29602712392807007
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 71,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 660,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3501006066799164
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.34561625123023987
+        },
+        {
+          "source_map_id": 514,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3333333432674408
+        },
+        {
+          "source_map_id": 434,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3255369961261749
+        },
+        {
+          "source_map_id": 335,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.32203391194343567
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 72,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2970096170902252
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.28528377413749695
+        },
+        {
+          "source_map_id": 692,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26455625891685486
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2637474536895752
+        },
+        {
+          "source_map_id": 654,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2547919452190399
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 73,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.40389469265937805
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3888690769672394
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.38738417625427246
+        },
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3611887991428375
+        },
+        {
+          "source_map_id": 482,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.351214200258255
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 74,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 127,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3878341615200043
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.383261501789093
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.38063713908195496
+        },
+        {
+          "source_map_id": 488,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3785851001739502
+        },
+        {
+          "source_map_id": 660,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3668794631958008
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 75,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 277,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2895752787590027
+        },
+        {
+          "source_map_id": 654,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.27738597989082336
+        },
+        {
+          "source_map_id": 527,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26517221331596375
+        },
+        {
+          "source_map_id": 127,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.256978303194046
+        },
+        {
+          "source_map_id": 660,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2565104067325592
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 76,
+      "target_split": "validation",
+      "top_candidates": [
+        {
+          "source_map_id": 655,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.36165326833724976
+        },
+        {
+          "source_map_id": 678,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.3541761636734009
+        },
+        {
+          "source_map_id": 655,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3497723937034607
+        },
+        {
+          "source_map_id": 582,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.3470299243927002
+        },
+        {
+          "source_map_id": 441,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.34275248646736145
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 77,
+      "target_split": "test",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2790581285953522
+        },
+        {
+          "source_map_id": 488,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.27589327096939087
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.27268195152282715
+        },
+        {
+          "source_map_id": 482,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26448801159858704
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26386138796806335
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 78,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.3344861567020416
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3338453769683838
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.3203243911266327
+        },
+        {
+          "source_map_id": 233,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.27934935688972473
+        },
+        {
+          "source_map_id": 686,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.27525967359542847
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 79,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 631,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2222222238779068
+        },
+        {
+          "source_map_id": 79,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.21627260744571686
+        },
+        {
+          "source_map_id": 600,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2142857164144516
+        },
+        {
+          "source_map_id": 641,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.21327683329582214
+        },
+        {
+          "source_map_id": 641,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2047685831785202
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 80,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.22629310190677643
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.21386666595935822
+        },
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2093525230884552
+        },
+        {
+          "source_map_id": 79,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.20474407076835632
+        },
+        {
+          "source_map_id": 498,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.1992366462945938
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 81,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 653,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2813725471496582
+        },
+        {
+          "source_map_id": 663,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.26500388979911804
+        },
+        {
+          "source_map_id": 223,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.24767225980758667
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2377232164144516
+        },
+        {
+          "source_map_id": 233,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.23652173578739166
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 82,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 572,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2427983582019806
+        },
+        {
+          "source_map_id": 672,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.23996971547603607
+        },
+        {
+          "source_map_id": 571,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.23474903404712677
+        },
+        {
+          "source_map_id": 93,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23367907106876373
+        },
+        {
+          "source_map_id": 571,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.22622700035572052
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 83,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.2930455505847931
+        },
+        {
+          "source_map_id": 677,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2862595319747925
+        },
+        {
+          "source_map_id": 488,
+          "reflection": true,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.28145265579223633
+        },
+        {
+          "source_map_id": 76,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.28011611104011536
+        },
+        {
+          "source_map_id": 339,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.27753108739852905
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 84,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 663,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.26529160141944885
+        },
+        {
+          "source_map_id": 677,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2514496445655823
+        },
+        {
+          "source_map_id": 119,
+          "reflection": true,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2410443276166916
+        },
+        {
+          "source_map_id": 680,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.23865030705928802
+        },
+        {
+          "source_map_id": 575,
+          "reflection": false,
+          "rotation_degrees": 90,
+          "proxy_iou": 0.22769230604171753
+        }
+      ]
+    },
+    {
+      "target_geometry_group": 85,
+      "target_split": "train",
+      "top_candidates": [
+        {
+          "source_map_id": 686,
+          "reflection": true,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.30407801270484924
+        },
+        {
+          "source_map_id": 527,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2950075566768646
+        },
+        {
+          "source_map_id": 488,
+          "reflection": false,
+          "rotation_degrees": 180,
+          "proxy_iou": 0.2931893765926361
+        },
+        {
+          "source_map_id": 574,
+          "reflection": false,
+          "rotation_degrees": 0,
+          "proxy_iou": 0.2925468385219574
+        },
+        {
+          "source_map_id": 574,
+          "reflection": false,
+          "rotation_degrees": 270,
+          "proxy_iou": 0.2920318841934204
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    "independent physical scene identity",
+    "tile coordinates/extents",
+    "source-target geographic overlap",
+    "target physical footprint/outdoor/nodata semantics",
+    "absolute EMF inverse normalization"
+  ],
+  "interpretation": "No raster match cannot establish geographic non-overlap; scale/crop/renderer/physical semantics differ. High matches are candidates requiring original scene metadata. No label-derived mask used.",
+  "new_physical_generalization_claim_authorized": false,
+  "source_dataset_csv_headers": [
+    "maps",
+    "json",
+    "Gain1",
+    "Gain2",
+    "Gain3",
+    "Gain4",
+    "Gain5",
+    "Gain6",
+    "Gain7",
+    "Gain8",
+    "Gain9",
+    "Gain10",
+    "Gain11",
+    "Gain12",
+    "Gain13",
+    "Gain14",
+    "Gain15",
+    "Gain16",
+    "Gain17",
+    "Gain18",
+    "Gain19",
+    "Gain20",
+    "Gain21",
+    "Gain22",
+    "Gain23",
+    "Gain24",
+    "Gain25",
+    "Gain26",
+    "Gain27",
+    "Gain28",
+    "Gain29",
+    "Gain30",
+    "Gain31",
+    "Gain32",
+    "Gain33",
+    "Gain34",
+    "Gain35",
+    "Gain36",
+    "Gain37",
+    "Gain38",
+    "Gain39",
+    "Gain40",
+    "Gain41",
+    "Gain42",
+    "Gain43",
+    "Gain44",
+    "Gain45",
+    "Gain46",
+    "Gain47",
+    "Gain48",
+    "Gain49",
+    "Gain50",
+    "Gain51",
+    "Gain52",
+    "Gain53",
+    "Gain54",
+    "Gain55",
+    "Gain56",
+    "Gain57",
+    "Gain58",
+    "Gain59",
+    "Gain60",
+    "Gain61",
+    "Gain62",
+    "Gain63",
+    "Gain64",
+    "Gain65",
+    "Gain66",
+    "Gain67",
+    "Gain68",
+    "Gain69",
+    "Gain70",
+    "Gain71",
+    "Gain72",
+    "Gain73",
+    "Gain74",
+    "Gain75",
+    "Gain76",
+    "Gain77",
+    "Gain78",
+    "Gain79",
+    "Gain80"
+  ],
+  "source_polygon_files_inspected": 701,
+  "source_polygon_non_list_containers": [],
+  "source_antenna_files_inspected": 701,
+  "source_antenna_non_list_containers": []
+}

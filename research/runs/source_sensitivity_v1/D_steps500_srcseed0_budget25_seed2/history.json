@@ -1,0 +1,890 @@
+[
+  {
+    "epoch": 0,
+    "updates": 33,
+    "train_mae": 0.1483363938150984,
+    "whole_raster_group_macro_mae": 0.11730810906738041,
+    "whole_raster_group_macro_rmse": 0.14248703889272832,
+    "group_count": 12
+  },
+  {
+    "epoch": 1,
+    "updates": 66,
+    "train_mae": 0.1181099818962993,
+    "whole_raster_group_macro_mae": 0.11064567020231926,
+    "whole_raster_group_macro_rmse": 0.13608510799154092,
+    "group_count": 12
+  },
+  {
+    "epoch": 2,
+    "updates": 99,
+    "train_mae": 0.11195104885281938,
+    "whole_raster_group_macro_mae": 0.11002460142804515,
+    "whole_raster_group_macro_rmse": 0.13933794793707352,
+    "group_count": 12
+  },
+  {
+    "epoch": 3,
+    "updates": 132,
+    "train_mae": 0.11120295321399515,
+    "whole_raster_group_macro_mae": 0.10680465255346565,
+    "whole_raster_group_macro_rmse": 0.1340981123761998,
+    "group_count": 12
+  },
+  {
+    "epoch": 4,
+    "updates": 165,
+    "train_mae": 0.10874880692272475,
+    "whole_raster_group_macro_mae": 0.10561550277526732,
+    "whole_raster_group_macro_rmse": 0.13542318751138668,
+    "group_count": 12
+  },
+  {
+    "epoch": 5,
+    "updates": 198,
+    "train_mae": 0.10384192498344363,
+    "whole_raster_group_macro_mae": 0.1008922482530276,
+    "whole_raster_group_macro_rmse": 0.13004342425200674,
+    "group_count": 12
+  },
+  {
+    "epoch": 6,
+    "updates": 231,
+    "train_mae": 0.10049706155603583,
+    "whole_raster_group_macro_mae": 0.09792510823657118,
+    "whole_raster_group_macro_rmse": 0.1279783524158928,
+    "group_count": 12
+  },
+  {
+    "epoch": 7,
+    "updates": 264,
+    "train_mae": 0.09588223560289903,
+    "whole_raster_group_macro_mae": 0.09713053496347533,
+    "whole_raster_group_macro_rmse": 0.12839896535431897,
+    "group_count": 12
+  },
+  {
+    "epoch": 8,
+    "updates": 297,
+    "train_mae": 0.09317039833827452,
+    "whole_raster_group_macro_mae": 0.0980068367595474,
+    "whole_raster_group_macro_rmse": 0.13020933647122648,
+    "group_count": 12
+  },
+  {
+    "epoch": 9,
+    "updates": 330,
+    "train_mae": 0.09313894672827287,
+    "whole_raster_group_macro_mae": 0.09872934963830093,
+    "whole_raster_group_macro_rmse": 0.13237299438979888,
+    "group_count": 12
+  },
+  {
+    "epoch": 10,
+    "updates": 363,
+    "train_mae": 0.09333412733041879,
+    "whole_raster_group_macro_mae": 0.0938731282259579,
+    "whole_raster_group_macro_rmse": 0.12761222302085826,
+    "group_count": 12
+  },
+  {
+    "epoch": 11,
+    "updates": 396,
+    "train_mae": 0.09057809660832088,
+    "whole_raster_group_macro_mae": 0.09273682507099928,
+    "whole_raster_group_macro_rmse": 0.12673889266120064,
+    "group_count": 12
+  },
+  {
+    "epoch": 12,
+    "updates": 429,
+    "train_mae": 0.08845681358467448,
+    "whole_raster_group_macro_mae": 0.09446418068061273,
+    "whole_raster_group_macro_rmse": 0.12949065615733465,
+    "group_count": 12
+  },
+  {
+    "epoch": 13,
+    "updates": 462,
+    "train_mae": 0.0868467374733,
+    "whole_raster_group_macro_mae": 0.08971012780373848,
+    "whole_raster_group_macro_rmse": 0.12405604517294301,
+    "group_count": 12
+  },
+  {
+    "epoch": 14,
+    "updates": 495,
+    "train_mae": 0.08598146271525008,
+    "whole_raster_group_macro_mae": 0.09370083620564805,
+    "whole_raster_group_macro_rmse": 0.12997606072436882,
+    "group_count": 12
+  },
+  {
+    "epoch": 15,
+    "updates": 528,
+    "train_mae": 0.0856407880783081,
+    "whole_raster_group_macro_mae": 0.09207053237629158,
+    "whole_raster_group_macro_rmse": 0.1273208324693971,
+    "group_count": 12
+  },
+  {
+    "epoch": 16,
+    "updates": 561,
+    "train_mae": 0.08595699207349257,
+    "whole_raster_group_macro_mae": 0.09003090813618014,
+    "whole_raster_group_macro_rmse": 0.125767710722155,
+    "group_count": 12
+  },
+  {
+    "epoch": 17,
+    "updates": 594,
+    "train_mae": 0.08574447690537482,
+    "whole_raster_group_macro_mae": 0.08996406245838713,
+    "whole_raster_group_macro_rmse": 0.12680896316413526,
+    "group_count": 12
+  },
+  {
+    "epoch": 18,
+    "updates": 627,
+    "train_mae": 0.08346096990686475,
+    "whole_raster_group_macro_mae": 0.08798422736840115,
+    "whole_raster_group_macro_rmse": 0.12441881207956211,
+    "group_count": 12
+  },
+  {
+    "epoch": 19,
+    "updates": 660,
+    "train_mae": 0.08163667605681853,
+    "whole_raster_group_macro_mae": 0.09037764974076438,
+    "whole_raster_group_macro_rmse": 0.1280098841008213,
+    "group_count": 12
+  },
+  {
+    "epoch": 20,
+    "updates": 693,
+    "train_mae": 0.08166344486402743,
+    "whole_raster_group_macro_mae": 0.09147515789502196,
+    "whole_raster_group_macro_rmse": 0.1293944973084662,
+    "group_count": 12
+  },
+  {
+    "epoch": 21,
+    "updates": 726,
+    "train_mae": 0.08102751839341539,
+    "whole_raster_group_macro_mae": 0.08620673625005616,
+    "whole_raster_group_macro_rmse": 0.12390636183597424,
+    "group_count": 12
+  },
+  {
+    "epoch": 22,
+    "updates": 759,
+    "train_mae": 0.08018488820755121,
+    "whole_raster_group_macro_mae": 0.0837709284559996,
+    "whole_raster_group_macro_rmse": 0.12173810959966096,
+    "group_count": 12
+  },
+  {
+    "epoch": 23,
+    "updates": 792,
+    "train_mae": 0.07938672139337569,
+    "whole_raster_group_macro_mae": 0.08534205911888017,
+    "whole_raster_group_macro_rmse": 0.12365461872131735,
+    "group_count": 12
+  },
+  {
+    "epoch": 24,
+    "updates": 825,
+    "train_mae": 0.07826746413201997,
+    "whole_raster_group_macro_mae": 0.08827833127644326,
+    "whole_raster_group_macro_rmse": 0.12699363470353464,
+    "group_count": 12
+  },
+  {
+    "epoch": 25,
+    "updates": 858,
+    "train_mae": 0.07724089660879338,
+    "whole_raster_group_macro_mae": 0.08783348818758019,
+    "whole_raster_group_macro_rmse": 0.126834515620161,
+    "group_count": 12
+  },
+  {
+    "epoch": 26,
+    "updates": 891,
+    "train_mae": 0.07582624685583693,
+    "whole_raster_group_macro_mae": 0.08227216504100297,
+    "whole_raster_group_macro_rmse": 0.12072542137293905,
+    "group_count": 12
+  },
+  {
+    "epoch": 27,
+    "updates": 924,
+    "train_mae": 0.07424685257402333,
+    "whole_raster_group_macro_mae": 0.08350631432538784,
+    "whole_raster_group_macro_rmse": 0.12229480532308422,
+    "group_count": 12
+  },
+  {
+    "epoch": 28,
+    "updates": 957,
+    "train_mae": 0.07355969229882414,
+    "whole_raster_group_macro_mae": 0.08404405587525278,
+    "whole_raster_group_macro_rmse": 0.12315570107764667,
+    "group_count": 12
+  },
+  {
+    "epoch": 29,
+    "updates": 990,
+    "train_mae": 0.07568148399392764,
+    "whole_raster_group_macro_mae": 0.0833550805432929,
+    "whole_raster_group_macro_rmse": 0.12216477220257121,
+    "group_count": 12
+  },
+  {
+    "epoch": 30,
+    "updates": 1023,
+    "train_mae": 0.07405888718186003,
+    "whole_raster_group_macro_mae": 0.08295584138896729,
+    "whole_raster_group_macro_rmse": 0.12223487526730253,
+    "group_count": 12
+  },
+  {
+    "epoch": 31,
+    "updates": 1056,
+    "train_mae": 0.07219995705015732,
+    "whole_raster_group_macro_mae": 0.08350406749242988,
+    "whole_raster_group_macro_rmse": 0.12286281261455129,
+    "group_count": 12
+  },
+  {
+    "epoch": 32,
+    "updates": 1089,
+    "train_mae": 0.07106831692384952,
+    "whole_raster_group_macro_mae": 0.08043457598735891,
+    "whole_raster_group_macro_rmse": 0.1200488064852026,
+    "group_count": 12
+  },
+  {
+    "epoch": 33,
+    "updates": 1122,
+    "train_mae": 0.07052446280916531,
+    "whole_raster_group_macro_mae": 0.08304255866204148,
+    "whole_raster_group_macro_rmse": 0.12316908956401877,
+    "group_count": 12
+  },
+  {
+    "epoch": 34,
+    "updates": 1155,
+    "train_mae": 0.07007165591825139,
+    "whole_raster_group_macro_mae": 0.07954702246934175,
+    "whole_raster_group_macro_rmse": 0.11955748084518646,
+    "group_count": 12
+  },
+  {
+    "epoch": 35,
+    "updates": 1188,
+    "train_mae": 0.06853377706173694,
+    "whole_raster_group_macro_mae": 0.082092539821234,
+    "whole_raster_group_macro_rmse": 0.12214587042453112,
+    "group_count": 12
+  },
+  {
+    "epoch": 36,
+    "updates": 1221,
+    "train_mae": 0.06939341850353009,
+    "whole_raster_group_macro_mae": 0.07976417964393342,
+    "whole_raster_group_macro_rmse": 0.12007491552719364,
+    "group_count": 12
+  },
+  {
+    "epoch": 37,
+    "updates": 1254,
+    "train_mae": 0.06767526855974486,
+    "whole_raster_group_macro_mae": 0.08229154124166127,
+    "whole_raster_group_macro_rmse": 0.12286635315804569,
+    "group_count": 12
+  },
+  {
+    "epoch": 38,
+    "updates": 1287,
+    "train_mae": 0.0670893108754447,
+    "whole_raster_group_macro_mae": 0.07913625233427242,
+    "whole_raster_group_macro_rmse": 0.11887656041869411,
+    "group_count": 12
+  },
+  {
+    "epoch": 39,
+    "updates": 1320,
+    "train_mae": 0.06704565069892189,
+    "whole_raster_group_macro_mae": 0.07894850260129682,
+    "whole_raster_group_macro_rmse": 0.1189519141421274,
+    "group_count": 12
+  },
+  {
+    "epoch": 40,
+    "updates": 1353,
+    "train_mae": 0.06523488044287219,
+    "whole_raster_group_macro_mae": 0.07775648841979327,
+    "whole_raster_group_macro_rmse": 0.1185587118897173,
+    "group_count": 12
+  },
+  {
+    "epoch": 41,
+    "updates": 1386,
+    "train_mae": 0.06549449208559412,
+    "whole_raster_group_macro_mae": 0.08211885944560722,
+    "whole_raster_group_macro_rmse": 0.12365579874151283,
+    "group_count": 12
+  },
+  {
+    "epoch": 42,
+    "updates": 1419,
+    "train_mae": 0.06568885413986264,
+    "whole_raster_group_macro_mae": 0.08127559169575022,
+    "whole_raster_group_macro_rmse": 0.12208277338908778,
+    "group_count": 12
+  },
+  {
+    "epoch": 43,
+    "updates": 1452,
+    "train_mae": 0.06562261012467471,
+    "whole_raster_group_macro_mae": 0.08062338325436469,
+    "whole_raster_group_macro_rmse": 0.12121477157429415,
+    "group_count": 12
+  },
+  {
+    "epoch": 44,
+    "updates": 1485,
+    "train_mae": 0.06335873597047546,
+    "whole_raster_group_macro_mae": 0.07987986718890842,
+    "whole_raster_group_macro_rmse": 0.12082373937246978,
+    "group_count": 12
+  },
+  {
+    "epoch": 45,
+    "updates": 1518,
+    "train_mae": 0.061354981566017326,
+    "whole_raster_group_macro_mae": 0.07997401934806948,
+    "whole_raster_group_macro_rmse": 0.12146713294916685,
+    "group_count": 12
+  },
+  {
+    "epoch": 46,
+    "updates": 1551,
+    "train_mae": 0.060777956676302536,
+    "whole_raster_group_macro_mae": 0.07990422165366234,
+    "whole_raster_group_macro_rmse": 0.12099003667632739,
+    "group_count": 12
+  },
+  {
+    "epoch": 47,
+    "updates": 1584,
+    "train_mae": 0.06203748511545586,
+    "whole_raster_group_macro_mae": 0.07894636356030349,
+    "whole_raster_group_macro_rmse": 0.11976049116088283,
+    "group_count": 12
+  },
+  {
+    "epoch": 48,
+    "updates": 1617,
+    "train_mae": 0.06222261736790339,
+    "whole_raster_group_macro_mae": 0.07877463609394099,
+    "whole_raster_group_macro_rmse": 0.11999558981645991,
+    "group_count": 12
+  },
+  {
+    "epoch": 49,
+    "updates": 1650,
+    "train_mae": 0.060202360491861,
+    "whole_raster_group_macro_mae": 0.08302459803720315,
+    "whole_raster_group_macro_rmse": 0.12417609085915267,
+    "group_count": 12
+  },
+  {
+    "epoch": 50,
+    "updates": 1683,
+    "train_mae": 0.06212458059643254,
+    "whole_raster_group_macro_mae": 0.08134697443219248,
+    "whole_raster_group_macro_rmse": 0.12323279271799105,
+    "group_count": 12
+  },
+  {
+    "epoch": 51,
+    "updates": 1716,
+    "train_mae": 0.05910789232813951,
+    "whole_raster_group_macro_mae": 0.0783670692946072,
+    "whole_raster_group_macro_rmse": 0.11992560113193812,
+    "group_count": 12
+  },
+  {
+    "epoch": 52,
+    "updates": 1749,
+    "train_mae": 0.0591518838297237,
+    "whole_raster_group_macro_mae": 0.07960858123583926,
+    "whole_raster_group_macro_rmse": 0.12195748815106021,
+    "group_count": 12
+  },
+  {
+    "epoch": 53,
+    "updates": 1782,
+    "train_mae": 0.059429888585300156,
+    "whole_raster_group_macro_mae": 0.0774231656902918,
+    "whole_raster_group_macro_rmse": 0.11850136849615307,
+    "group_count": 12
+  },
+  {
+    "epoch": 54,
+    "updates": 1815,
+    "train_mae": 0.058452545806314,
+    "whole_raster_group_macro_mae": 0.07806321461167601,
+    "whole_raster_group_macro_rmse": 0.11912644778688748,
+    "group_count": 12
+  },
+  {
+    "epoch": 55,
+    "updates": 1848,
+    "train_mae": 0.05743173554991231,
+    "whole_raster_group_macro_mae": 0.08213321554164092,
+    "whole_raster_group_macro_rmse": 0.1242735345882398,
+    "group_count": 12
+  },
+  {
+    "epoch": 56,
+    "updates": 1881,
+    "train_mae": 0.05686816279635285,
+    "whole_raster_group_macro_mae": 0.0795899228779254,
+    "whole_raster_group_macro_rmse": 0.12180763345073771,
+    "group_count": 12
+  },
+  {
+    "epoch": 57,
+    "updates": 1914,
+    "train_mae": 0.05740686630209287,
+    "whole_raster_group_macro_mae": 0.08314388617873192,
+    "whole_raster_group_macro_rmse": 0.12624672807201195,
+    "group_count": 12
+  },
+  {
+    "epoch": 58,
+    "updates": 1947,
+    "train_mae": 0.05604102778615373,
+    "whole_raster_group_macro_mae": 0.07802918970722843,
+    "whole_raster_group_macro_rmse": 0.12006533159701914,
+    "group_count": 12
+  },
+  {
+    "epoch": 59,
+    "updates": 1980,
+    "train_mae": 0.0552694531101169,
+    "whole_raster_group_macro_mae": 0.07861977508636536,
+    "whole_raster_group_macro_rmse": 0.11981346368513728,
+    "group_count": 12
+  },
+  {
+    "epoch": 60,
+    "updates": 2013,
+    "train_mae": 0.0567121377045458,
+    "whole_raster_group_macro_mae": 0.07904195799319831,
+    "whole_raster_group_macro_rmse": 0.12080949820854046,
+    "group_count": 12
+  },
+  {
+    "epoch": 61,
+    "updates": 2046,
+    "train_mae": 0.05539856354395548,
+    "whole_raster_group_macro_mae": 0.07822211897345605,
+    "whole_raster_group_macro_rmse": 0.11985135837285608,
+    "group_count": 12
+  },
+  {
+    "epoch": 62,
+    "updates": 2079,
+    "train_mae": 0.054524333865353554,
+    "whole_raster_group_macro_mae": 0.07846665289252996,
+    "whole_raster_group_macro_rmse": 0.12080279089234493,
+    "group_count": 12
+  },
+  {
+    "epoch": 63,
+    "updates": 2112,
+    "train_mae": 0.053006035134647835,
+    "whole_raster_group_macro_mae": 0.07811624863771377,
+    "whole_raster_group_macro_rmse": 0.120463069183407,
+    "group_count": 12
+  },
+  {
+    "epoch": 64,
+    "updates": 2145,
+    "train_mae": 0.0531313850572615,
+    "whole_raster_group_macro_mae": 0.08042106077212978,
+    "whole_raster_group_macro_rmse": 0.12249599438574578,
+    "group_count": 12
+  },
+  {
+    "epoch": 65,
+    "updates": 2178,
+    "train_mae": 0.05358851768753745,
+    "whole_raster_group_macro_mae": 0.07943310712774594,
+    "whole_raster_group_macro_rmse": 0.12118657105774792,
+    "group_count": 12
+  },
+  {
+    "epoch": 66,
+    "updates": 2211,
+    "train_mae": 0.05279271180431048,
+    "whole_raster_group_macro_mae": 0.07845029490137541,
+    "whole_raster_group_macro_rmse": 0.12043751238120926,
+    "group_count": 12
+  },
+  {
+    "epoch": 67,
+    "updates": 2244,
+    "train_mae": 0.051971776806043854,
+    "whole_raster_group_macro_mae": 0.07809183805215138,
+    "whole_raster_group_macro_rmse": 0.12033321646352609,
+    "group_count": 12
+  },
+  {
+    "epoch": 68,
+    "updates": 2277,
+    "train_mae": 0.05074731599200855,
+    "whole_raster_group_macro_mae": 0.0797884152788255,
+    "whole_raster_group_macro_rmse": 0.12258116128268065,
+    "group_count": 12
+  },
+  {
+    "epoch": 69,
+    "updates": 2310,
+    "train_mae": 0.050684485471609864,
+    "whole_raster_group_macro_mae": 0.07720208447426558,
+    "whole_raster_group_macro_rmse": 0.1194797689440074,
+    "group_count": 12
+  },
+  {
+    "epoch": 70,
+    "updates": 2343,
+    "train_mae": 0.04971745689258431,
+    "whole_raster_group_macro_mae": 0.0788344587371857,
+    "whole_raster_group_macro_rmse": 0.12077752335204019,
+    "group_count": 12
+  },
+  {
+    "epoch": 71,
+    "updates": 2376,
+    "train_mae": 0.0503500271024126,
+    "whole_raster_group_macro_mae": 0.07868553259996353,
+    "whole_raster_group_macro_rmse": 0.12148235483026064,
+    "group_count": 12
+  },
+  {
+    "epoch": 72,
+    "updates": 2409,
+    "train_mae": 0.05051866975246054,
+    "whole_raster_group_macro_mae": 0.08197230942271373,
+    "whole_raster_group_macro_rmse": 0.12566103655155061,
+    "group_count": 12
+  },
+  {
+    "epoch": 73,
+    "updates": 2442,
+    "train_mae": 0.04961735134323438,
+    "whole_raster_group_macro_mae": 0.08031633482487113,
+    "whole_raster_group_macro_rmse": 0.12343888371079058,
+    "group_count": 12
+  },
+  {
+    "epoch": 74,
+    "updates": 2475,
+    "train_mae": 0.048805223834334,
+    "whole_raster_group_macro_mae": 0.07770359260892426,
+    "whole_raster_group_macro_rmse": 0.12078882664166114,
+    "group_count": 12
+  },
+  {
+    "epoch": 75,
+    "updates": 2508,
+    "train_mae": 0.04813059916098913,
+    "whole_raster_group_macro_mae": 0.07681553093371567,
+    "whole_raster_group_macro_rmse": 0.11971493348203323,
+    "group_count": 12
+  },
+  {
+    "epoch": 76,
+    "updates": 2541,
+    "train_mae": 0.047935225633960785,
+    "whole_raster_group_macro_mae": 0.0786924507399952,
+    "whole_raster_group_macro_rmse": 0.12106830606030095,
+    "group_count": 12
+  },
+  {
+    "epoch": 77,
+    "updates": 2574,
+    "train_mae": 0.04830656686063969,
+    "whole_raster_group_macro_mae": 0.07738582576038659,
+    "whole_raster_group_macro_rmse": 0.12021709675038302,
+    "group_count": 12
+  },
+  {
+    "epoch": 78,
+    "updates": 2607,
+    "train_mae": 0.04817028603318966,
+    "whole_raster_group_macro_mae": 0.08023654662624553,
+    "whole_raster_group_macro_rmse": 0.12339345945252311,
+    "group_count": 12
+  },
+  {
+    "epoch": 79,
+    "updates": 2640,
+    "train_mae": 0.04727116114262379,
+    "whole_raster_group_macro_mae": 0.07741639528561521,
+    "whole_raster_group_macro_rmse": 0.12000563492377599,
+    "group_count": 12
+  },
+  {
+    "epoch": 80,
+    "updates": 2673,
+    "train_mae": 0.047190206294709984,
+    "whole_raster_group_macro_mae": 0.07672932085201696,
+    "whole_raster_group_macro_rmse": 0.12001805531757849,
+    "group_count": 12
+  },
+  {
+    "epoch": 81,
+    "updates": 2706,
+    "train_mae": 0.04641394181685014,
+    "whole_raster_group_macro_mae": 0.07784538536711975,
+    "whole_raster_group_macro_rmse": 0.12084639969247359,
+    "group_count": 12
+  },
+  {
+    "epoch": 82,
+    "updates": 2739,
+    "train_mae": 0.04601893743330782,
+    "whole_raster_group_macro_mae": 0.080665344234418,
+    "whole_raster_group_macro_rmse": 0.12388650086466914,
+    "group_count": 12
+  },
+  {
+    "epoch": 83,
+    "updates": 2772,
+    "train_mae": 0.046618853893243904,
+    "whole_raster_group_macro_mae": 0.08173946411935268,
+    "whole_raster_group_macro_rmse": 0.12546703033149242,
+    "group_count": 12
+  },
+  {
+    "epoch": 84,
+    "updates": 2805,
+    "train_mae": 0.047161799827308365,
+    "whole_raster_group_macro_mae": 0.07898062208874357,
+    "whole_raster_group_macro_rmse": 0.1221332524523691,
+    "group_count": 12
+  },
+  {
+    "epoch": 85,
+    "updates": 2838,
+    "train_mae": 0.046240532262758774,
+    "whole_raster_group_macro_mae": 0.0759968986665761,
+    "whole_raster_group_macro_rmse": 0.11869835860475346,
+    "group_count": 12
+  },
+  {
+    "epoch": 86,
+    "updates": 2871,
+    "train_mae": 0.046630228446288544,
+    "whole_raster_group_macro_mae": 0.07693508239807906,
+    "whole_raster_group_macro_rmse": 0.12026824036406146,
+    "group_count": 12
+  },
+  {
+    "epoch": 87,
+    "updates": 2904,
+    "train_mae": 0.0464447345020193,
+    "whole_raster_group_macro_mae": 0.08001190399820055,
+    "whole_raster_group_macro_rmse": 0.12339427604995391,
+    "group_count": 12
+  },
+  {
+    "epoch": 88,
+    "updates": 2937,
+    "train_mae": 0.04482955745223797,
+    "whole_raster_group_macro_mae": 0.07674141676613577,
+    "whole_raster_group_macro_rmse": 0.11993279370168845,
+    "group_count": 12
+  },
+  {
+    "epoch": 89,
+    "updates": 2970,
+    "train_mae": 0.044999320285789894,
+    "whole_raster_group_macro_mae": 0.0795169750366498,
+    "whole_raster_group_macro_rmse": 0.12329983662951875,
+    "group_count": 12
+  },
+  {
+    "epoch": 90,
+    "updates": 3003,
+    "train_mae": 0.04527722174922625,
+    "whole_raster_group_macro_mae": 0.07770383920244599,
+    "whole_raster_group_macro_rmse": 0.12123646345679406,
+    "group_count": 12
+  },
+  {
+    "epoch": 91,
+    "updates": 3036,
+    "train_mae": 0.044233640712319,
+    "whole_raster_group_macro_mae": 0.07722672302689816,
+    "whole_raster_group_macro_rmse": 0.12082213535904884,
+    "group_count": 12
+  },
+  {
+    "epoch": 92,
+    "updates": 3069,
+    "train_mae": 0.043612516852039276,
+    "whole_raster_group_macro_mae": 0.0779659769118384,
+    "whole_raster_group_macro_rmse": 0.12175457076066072,
+    "group_count": 12
+  },
+  {
+    "epoch": 93,
+    "updates": 3102,
+    "train_mae": 0.043268008891380196,
+    "whole_raster_group_macro_mae": 0.07945233821454975,
+    "whole_raster_group_macro_rmse": 0.12362450147392574,
+    "group_count": 12
+  },
+  {
+    "epoch": 94,
+    "updates": 3135,
+    "train_mae": 0.043318512539068856,
+    "whole_raster_group_macro_mae": 0.07956687474830283,
+    "whole_raster_group_macro_rmse": 0.123977226032703,
+    "group_count": 12
+  },
+  {
+    "epoch": 95,
+    "updates": 3168,
+    "train_mae": 0.04400106587193229,
+    "whole_raster_group_macro_mae": 0.07943861631469594,
+    "whole_raster_group_macro_rmse": 0.12395166571217553,
+    "group_count": 12
+  },
+  {
+    "epoch": 96,
+    "updates": 3201,
+    "train_mae": 0.04370481001608299,
+    "whole_raster_group_macro_mae": 0.07917380088043434,
+    "whole_raster_group_macro_rmse": 0.12301086606802764,
+    "group_count": 12
+  },
+  {
+    "epoch": 97,
+    "updates": 3234,
+    "train_mae": 0.046778593212366104,
+    "whole_raster_group_macro_mae": 0.07830934364486623,
+    "whole_raster_group_macro_rmse": 0.12168070384197766,
+    "group_count": 12
+  },
+  {
+    "epoch": 98,
+    "updates": 3267,
+    "train_mae": 0.0436335527761416,
+    "whole_raster_group_macro_mae": 0.07819645282708935,
+    "whole_raster_group_macro_rmse": 0.12219957910754063,
+    "group_count": 12
+  },
+  {
+    "epoch": 99,
+    "updates": 3300,
+    "train_mae": 0.04224142883763169,
+    "whole_raster_group_macro_mae": 0.07978320853025825,
+    "whole_raster_group_macro_rmse": 0.12472044538568568,
+    "group_count": 12
+  },
+  {
+    "epoch": 100,
+    "updates": 3333,
+    "train_mae": 0.04219987333723993,
+    "whole_raster_group_macro_mae": 0.08038954026307221,
+    "whole_raster_group_macro_rmse": 0.12510384812399197,
+    "group_count": 12
+  },
+  {
+    "epoch": 101,
+    "updates": 3366,
+    "train_mae": 0.041076180609789764,
+    "whole_raster_group_macro_mae": 0.08225091957245712,
+    "whole_raster_group_macro_rmse": 0.12777868796277927,
+    "group_count": 12
+  },
+  {
+    "epoch": 102,
+    "updates": 3399,
+    "train_mae": 0.04151686721227386,
+    "whole_raster_group_macro_mae": 0.08175876333067815,
+    "whole_raster_group_macro_rmse": 0.1271929394591738,
+    "group_count": 12
+  },
+  {
+    "epoch": 103,
+    "updates": 3432,
+    "train_mae": 0.041040839570941345,
+    "whole_raster_group_macro_mae": 0.07862615757794293,
+    "whole_raster_group_macro_rmse": 0.12305392338721839,
+    "group_count": 12
+  },
+  {
+    "epoch": 104,
+    "updates": 3465,
+    "train_mae": 0.040480962079582794,
+    "whole_raster_group_macro_mae": 0.07814514595601295,
+    "whole_raster_group_macro_rmse": 0.12238192730755719,
+    "group_count": 12
+  },
+  {
+    "epoch": 105,
+    "updates": 3498,
+    "train_mae": 0.04012551068356543,
+    "whole_raster_group_macro_mae": 0.07942537990985093,
+    "whole_raster_group_macro_rmse": 0.12357026442057557,
+    "group_count": 12
+  },
+  {
+    "epoch": 106,
+    "updates": 3531,
+    "train_mae": 0.04034967946283745,
+    "whole_raster_group_macro_mae": 0.08046969019428449,
+    "whole_raster_group_macro_rmse": 0.12486787195558902,
+    "group_count": 12
+  },
+  {
+    "epoch": 107,
+    "updates": 3564,
+    "train_mae": 0.04170455027258757,
+    "whole_raster_group_macro_mae": 0.08038575098746353,
+    "whole_raster_group_macro_rmse": 0.12484884744992963,
+    "group_count": 12
+  },
+  {
+    "epoch": 108,
+    "updates": 3597,
+    "train_mae": 0.04095467800895373,
+    "whole_raster_group_macro_mae": 0.07621885494639476,
+    "whole_raster_group_macro_rmse": 0.120566069320948,
+    "group_count": 12
+  },
+  {
+    "epoch": 109,
+    "updates": 3630,
+    "train_mae": 0.04145659043481856,
+    "whole_raster_group_macro_mae": 0.0786550042943822,
+    "whole_raster_group_macro_rmse": 0.12420297282989379,
+    "group_count": 12
+  },
+  {
+    "epoch": 110,
+    "updates": 3663,
+    "train_mae": 0.041132542050697586,
+    "whole_raster_group_macro_mae": 0.07913865104179692,
+    "whole_raster_group_macro_rmse": 0.12482639057216821,
+    "group_count": 12
+  }
+]

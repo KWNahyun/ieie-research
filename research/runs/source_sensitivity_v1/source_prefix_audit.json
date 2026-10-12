@@ -1,0 +1,21 @@
+{
+  "common_history_prefix": [
+    {
+      "updates": 250,
+      "pilot_mae": 0.08561937033775308,
+      "source500_mae": 0.08561780351613249,
+      "source4500_mae": 0.08561908049242838,
+      "absolute_500_vs_4500_difference": 1.2769762958858566e-06
+    },
+    {
+      "updates": 500,
+      "pilot_mae": 0.07911941386049702,
+      "source500_mae": 0.07911831055368695,
+      "source4500_mae": 0.07911565355246976,
+      "absolute_500_vs_4500_difference": 2.657001217196142e-06
+    }
+  ],
+  "same_seed_and_loader_order": true,
+  "bitwise_reproduction_claimed": false,
+  "note": "TF32 enabled; nondeterministic CUDA kernels and original GPU1 versus new GPU2 can cause small trajectory differences. Same seed/order is not bitwise-identical weights."
+}

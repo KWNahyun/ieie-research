@@ -1,0 +1,170 @@
+[
+  {
+    "run": "B_budget25_seed0",
+    "epoch_count": 30,
+    "best_epoch": 24,
+    "best_within_last_5_epochs": false,
+    "reached_limit": true
+  },
+  {
+    "run": "A_budget25_seed0",
+    "epoch_count": 30,
+    "best_epoch": 30,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "C_budget25_seed0",
+    "epoch_count": 30,
+    "best_epoch": 24,
+    "best_within_last_5_epochs": false,
+    "reached_limit": true
+  },
+  {
+    "run": "D_budget25_seed0",
+    "epoch_count": 30,
+    "best_epoch": 30,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "A_budget100_seed0",
+    "epoch_count": 25,
+    "best_epoch": 17,
+    "best_within_last_5_epochs": false,
+    "reached_limit": false
+  },
+  {
+    "run": "B_budget100_seed0",
+    "epoch_count": 30,
+    "best_epoch": 29,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "C_budget100_seed0",
+    "epoch_count": 27,
+    "best_epoch": 19,
+    "best_within_last_5_epochs": false,
+    "reached_limit": false
+  },
+  {
+    "run": "D_budget100_seed0",
+    "epoch_count": 22,
+    "best_epoch": 14,
+    "best_within_last_5_epochs": false,
+    "reached_limit": false
+  },
+  {
+    "run": "A_budget25_seed1",
+    "epoch_count": 30,
+    "best_epoch": 30,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "B_budget25_seed1",
+    "epoch_count": 30,
+    "best_epoch": 29,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "C_budget25_seed1",
+    "epoch_count": 30,
+    "best_epoch": 27,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "D_budget25_seed1",
+    "epoch_count": 30,
+    "best_epoch": 29,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "A_budget100_seed1",
+    "epoch_count": 30,
+    "best_epoch": 30,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "B_budget100_seed1",
+    "epoch_count": 30,
+    "best_epoch": 25,
+    "best_within_last_5_epochs": false,
+    "reached_limit": true
+  },
+  {
+    "run": "C_budget100_seed1",
+    "epoch_count": 30,
+    "best_epoch": 26,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "D_budget100_seed1",
+    "epoch_count": 30,
+    "best_epoch": 22,
+    "best_within_last_5_epochs": false,
+    "reached_limit": true
+  },
+  {
+    "run": "A_budget25_seed2",
+    "epoch_count": 30,
+    "best_epoch": 29,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "B_budget25_seed2",
+    "epoch_count": 30,
+    "best_epoch": 27,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "C_budget25_seed2",
+    "epoch_count": 30,
+    "best_epoch": 29,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "D_budget25_seed2",
+    "epoch_count": 30,
+    "best_epoch": 30,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "A_budget100_seed2",
+    "epoch_count": 30,
+    "best_epoch": 27,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "B_budget100_seed2",
+    "epoch_count": 30,
+    "best_epoch": 30,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  },
+  {
+    "run": "C_budget100_seed2",
+    "epoch_count": 28,
+    "best_epoch": 20,
+    "best_within_last_5_epochs": false,
+    "reached_limit": false
+  },
+  {
+    "run": "D_budget100_seed2",
+    "epoch_count": 30,
+    "best_epoch": 26,
+    "best_within_last_5_epochs": true,
+    "reached_limit": true
+  }
+]

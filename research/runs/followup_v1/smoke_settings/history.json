@@ -1,0 +1,18 @@
+[
+  {
+    "epoch": 0,
+    "updates": 1,
+    "train_mae": 0.2256614714860916,
+    "whole_raster_group_macro_mae": 0.35568757355213165,
+    "whole_raster_group_macro_rmse": 0.37374094128608704,
+    "group_count": 1
+  },
+  {
+    "epoch": 1,
+    "updates": 2,
+    "train_mae": 0.18390974402427673,
+    "whole_raster_group_macro_mae": 0.30680176615715027,
+    "whole_raster_group_macro_rmse": 0.34729859232902527,
+    "group_count": 1
+  }
+]

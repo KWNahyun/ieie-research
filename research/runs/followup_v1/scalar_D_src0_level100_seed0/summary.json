@@ -1,0 +1,8 @@
+{
+  "epochs": 54,
+  "updates": 7236,
+  "best_validation_mae": 0.06794655095371935,
+  "runtime_seconds": 324.42151583824307,
+  "test_accessed": false,
+  "epoch_cap": false
+}

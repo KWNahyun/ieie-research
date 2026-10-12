@@ -1,0 +1,491 @@
+{
+  "scope": "post-hoc descriptive equal-error interpolation, not newly confirmed data savings",
+  "manifest_sha256": "9b1ace446b2dea835e6dc19b954cdbb2ec5b9baec667edf3e432deb3019933b1",
+  "budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "train_group_counts": [
+    6,
+    15,
+    30,
+    60
+  ],
+  "raw_error_curves": {
+    "B": [
+      0.09243332646077586,
+      0.08277887431756846,
+      0.0792278037007366,
+      0.07376496277394749
+    ],
+    "D": [
+      0.08994797686972314,
+      0.07970507149855612,
+      0.07687608489480914,
+      0.07213890318753859
+    ]
+  },
+  "monotonic_envelope_curves": {
+    "B": [
+      0.09243332646077586,
+      0.08277887431756846,
+      0.0792278037007366,
+      0.07376496277394749
+    ],
+    "D": [
+      0.08994797686972314,
+      0.07970507149855612,
+      0.07687608489480914,
+      0.07213890318753859
+    ]
+  },
+  "common_observed_error_range": [
+    0.07376496277394749,
+    0.08994797686972314
+  ],
+  "illustrative_thresholds": [
+    {
+      "B": {
+        "required_groups_interpolated": 26.738182441642067,
+        "support": "identified"
+      },
+      "D": {
+        "required_groups_interpolated": 14.740859022239258,
+        "support": "identified"
+      },
+      "relative_group_savings_percent": 44.869629585286134,
+      "threshold": 0.08,
+      "bootstrap_draws": 10000,
+      "bootstrap_joint_identifiable_fraction": 0.9728,
+      "bootstrap_censoring_counts": {
+        "B_left": 0,
+        "B_right": 272,
+        "D_left": 0,
+        "D_right": 56
+      },
+      "conditional_identifiable_bootstrap95_percent": [
+        10.453440396344021,
+        56.50577935565227
+      ],
+      "interval_scope": "Conditional on both interpolated group requirements lying inside observed budgets; not an unconditional confidence interval"
+    },
+    {
+      "B": {
+        "required_groups_interpolated": 12.929439097593082,
+        "support": "identified"
+      },
+      "D": {
+        "required_groups_interpolated": 10.347574268611492,
+        "support": "identified"
+      },
+      "relative_group_savings_percent": 19.968885034326235,
+      "threshold": 0.085,
+      "bootstrap_draws": 10000,
+      "bootstrap_joint_identifiable_fraction": 0.9665,
+      "bootstrap_censoring_counts": {
+        "B_left": 78,
+        "B_right": 7,
+        "D_left": 323,
+        "D_right": 0
+      },
+      "conditional_identifiable_bootstrap95_percent": [
+        9.892332533768354,
+        58.289751458519156
+      ],
+      "interval_scope": "Conditional on both interpolated group requirements lying inside observed budgets; not an unconditional confidence interval"
+    }
+  ],
+  "common_range_grid": [
+    {
+      "threshold": 0.0737650627739475,
+      "B_required_groups": 59.99945083518992,
+      "D_required_groups": 49.70172760791651,
+      "relative_group_savings_percent": 17.163029134316265
+    },
+    {
+      "threshold": 0.0740219328389598,
+      "B_required_groups": 58.588810830539686,
+      "D_required_groups": 48.07500048901752,
+      "relative_group_savings_percent": 17.945082333095918
+    },
+    {
+      "threshold": 0.07427880290397212,
+      "B_required_groups": 57.17817082588939,
+      "D_required_groups": 46.44827337011844,
+      "relative_group_savings_percent": 18.765723528379496
+    },
+    {
+      "threshold": 0.07453567296898443,
+      "B_required_groups": 55.76753082123916,
+      "D_required_groups": 44.82154625121946,
+      "relative_group_savings_percent": 19.627880970930324
+    },
+    {
+      "threshold": 0.07479254303399674,
+      "B_required_groups": 54.35689081658894,
+      "D_required_groups": 43.19481913232047,
+      "relative_group_savings_percent": 20.534786880897105
+    },
+    {
+      "threshold": 0.07504941309900906,
+      "B_required_groups": 52.94625081193863,
+      "D_required_groups": 41.56809201342139,
+      "relative_group_savings_percent": 21.49001794089569
+    },
+    {
+      "threshold": 0.07530628316402137,
+      "B_required_groups": 51.53561080728841,
+      "D_required_groups": 39.9413648945224,
+      "relative_group_savings_percent": 22.497542439385033
+    },
+    {
+      "threshold": 0.07556315322903367,
+      "B_required_groups": 50.12497080263818,
+      "D_required_groups": 38.31463777562342,
+      "relative_group_savings_percent": 23.561775374427075
+    },
+    {
+      "threshold": 0.075820023294046,
+      "B_required_groups": 48.714330797987884,
+      "D_required_groups": 36.68791065672434,
+      "relative_group_savings_percent": 24.687643131413573
+    },
+    {
+      "threshold": 0.0760768933590583,
+      "B_required_groups": 47.30369079333765,
+      "D_required_groups": 35.06118353782535,
+      "relative_group_savings_percent": 25.88065973329202
+    },
+    {
+      "threshold": 0.07633376342407061,
+      "B_required_groups": 45.893050788687425,
+      "D_required_groups": 33.43445641892636,
+      "relative_group_savings_percent": 27.147017153263853
+    },
+    {
+      "threshold": 0.07659063348908292,
+      "B_required_groups": 44.4824107840372,
+      "D_required_groups": 31.807729300027372,
+      "relative_group_savings_percent": 28.493692811627515
+    },
+    {
+      "threshold": 0.07684750355409524,
+      "B_required_groups": 43.071770779386895,
+      "D_required_groups": 30.181002181128296,
+      "relative_group_savings_percent": 29.928578196343413
+    },
+    {
+      "threshold": 0.07710437361910755,
+      "B_required_groups": 41.66113077473668,
+      "D_required_groups": 28.789555645141412,
+      "relative_group_savings_percent": 30.895885181783378
+    },
+    {
+      "threshold": 0.07736124368411985,
+      "B_required_groups": 40.25049077008645,
+      "D_required_groups": 27.42756581808417,
+      "relative_group_savings_percent": 31.857810194781734
+    },
+    {
+      "threshold": 0.07761811374913218,
+      "B_required_groups": 38.83985076543615,
+      "D_required_groups": 26.065575991026847,
+      "relative_group_savings_percent": 32.88960828288562
+    },
+    {
+      "threshold": 0.07787498381414448,
+      "B_required_groups": 37.42921076078592,
+      "D_required_groups": 24.703586163969597,
+      "relative_group_savings_percent": 33.99917961975514
+    },
+    {
+      "threshold": 0.07813185387915679,
+      "B_required_groups": 36.018570756135695,
+      "D_required_groups": 23.341596336912353,
+      "relative_group_savings_percent": 35.19566199628797
+    },
+    {
+      "threshold": 0.07838872394416911,
+      "B_required_groups": 34.60793075148539,
+      "D_required_groups": 21.97960650985503,
+      "relative_group_savings_percent": 36.489683050721965
+    },
+    {
+      "threshold": 0.07864559400918142,
+      "B_required_groups": 33.197290746835165,
+      "D_required_groups": 20.617616682797784,
+      "relative_group_savings_percent": 37.893676806251584
+    },
+    {
+      "threshold": 0.07890246407419373,
+      "B_required_groups": 31.78665074218494,
+      "D_required_groups": 19.255626855740537,
+      "relative_group_savings_percent": 39.42228449320121
+    },
+    {
+      "threshold": 0.07915933413920605,
+      "B_required_groups": 30.37601073753464,
+      "D_required_groups": 17.893637028683216,
+      "relative_group_savings_percent": 41.09286705455158
+    },
+    {
+      "threshold": 0.07941620420421835,
+      "B_required_groups": 29.204181539271197,
+      "D_required_groups": 16.53164720162597,
+      "relative_group_savings_percent": 43.39287619002206
+    },
+    {
+      "threshold": 0.07967307426923066,
+      "B_required_groups": 28.119142295916987,
+      "D_required_groups": 15.169657374568724,
+      "relative_group_savings_percent": 46.05220452698011
+    },
+    {
+      "threshold": 0.07992994433424298,
+      "B_required_groups": 27.03410305256272,
+      "D_required_groups": 14.802413919894368,
+      "relative_group_savings_percent": 45.24540395842295
+    },
+    {
+      "threshold": 0.08018681439925529,
+      "B_required_groups": 25.94906380920851,
+      "D_required_groups": 14.57671325183798,
+      "relative_group_savings_percent": 43.825668012480826
+    },
+    {
+      "threshold": 0.0804436844642676,
+      "B_required_groups": 24.864024565854304,
+      "D_required_groups": 14.351012583781591,
+      "relative_group_savings_percent": 42.282020572446676
+    },
+    {
+      "threshold": 0.08070055452927992,
+      "B_required_groups": 23.778985322500038,
+      "D_required_groups": 14.125311915725192,
+      "relative_group_savings_percent": 40.597499329125675
+    },
+    {
+      "threshold": 0.08095742459429223,
+      "B_required_groups": 22.693946079145828,
+      "D_required_groups": 13.899611247668803,
+      "relative_group_savings_percent": 38.751897976696135
+    },
+    {
+      "threshold": 0.08121429465930453,
+      "B_required_groups": 21.608906835791622,
+      "D_required_groups": 13.673910579612414,
+      "relative_group_savings_percent": 36.720951765297926
+    },
+    {
+      "threshold": 0.08147116472431684,
+      "B_required_groups": 20.523867592437412,
+      "D_required_groups": 13.448209911556026,
+      "relative_group_savings_percent": 34.47526470833699
+    },
+    {
+      "threshold": 0.08172803478932916,
+      "B_required_groups": 19.438828349083145,
+      "D_required_groups": 13.222509243499626,
+      "relative_group_savings_percent": 31.978877502031743
+    },
+    {
+      "threshold": 0.08198490485434147,
+      "B_required_groups": 18.353789105728936,
+      "D_required_groups": 12.996808575443236,
+      "relative_group_savings_percent": 29.187327474595293
+    },
+    {
+      "threshold": 0.08224177491935378,
+      "B_required_groups": 17.26874986237473,
+      "D_required_groups": 12.771107907386849,
+      "relative_group_savings_percent": 26.044977145608982
+    },
+    {
+      "threshold": 0.0824986449843661,
+      "B_required_groups": 16.183710619020463,
+      "D_required_groups": 12.545407239330448,
+      "relative_group_savings_percent": 22.48126814263457
+    },
+    {
+      "threshold": 0.0827555150493784,
+      "B_required_groups": 15.098671375666253,
+      "D_required_groups": 12.31970657127406,
+      "relative_group_savings_percent": 18.405359883988915
+    },
+    {
+      "threshold": 0.08301238511439071,
+      "B_required_groups": 14.782318339743503,
+      "D_required_groups": 12.09400590321767,
+      "relative_group_savings_percent": 18.18600015735068
+    },
+    {
+      "threshold": 0.08326925517940303,
+      "B_required_groups": 14.542860880032812,
+      "D_required_groups": 11.86830523516127,
+      "relative_group_savings_percent": 18.390849413568123
+    },
+    {
+      "threshold": 0.08352612524441534,
+      "B_required_groups": 14.303403420322132,
+      "D_required_groups": 11.642604567104883,
+      "relative_group_savings_percent": 18.602557552399123
+    },
+    {
+      "threshold": 0.08378299530942765,
+      "B_required_groups": 14.063945960611452,
+      "D_required_groups": 11.416903899048494,
+      "relative_group_savings_percent": 18.821474918749427
+    },
+    {
+      "threshold": 0.08403986537443997,
+      "B_required_groups": 13.82448850090076,
+      "D_required_groups": 11.191203230992095,
+      "relative_group_savings_percent": 19.047976131175403
+    },
+    {
+      "threshold": 0.08429673543945228,
+      "B_required_groups": 13.585031041190081,
+      "D_required_groups": 10.965502562935704,
+      "relative_group_savings_percent": 19.282462221189746
+    },
+    {
+      "threshold": 0.08455360550446459,
+      "B_required_groups": 13.345573581479401,
+      "D_required_groups": 10.739801894879317,
+      "relative_group_savings_percent": 19.525363002878336
+    },
+    {
+      "threshold": 0.0848104755694769,
+      "B_required_groups": 13.10611612176871,
+      "D_required_groups": 10.514101226822916,
+      "relative_group_savings_percent": 19.77713970228424
+    },
+    {
+      "threshold": 0.08506734563448921,
+      "B_required_groups": 12.86665866205803,
+      "D_required_groups": 10.288400558766527,
+      "relative_group_savings_percent": 20.038287880399164
+    },
+    {
+      "threshold": 0.08532421569950152,
+      "B_required_groups": 12.62720120234735,
+      "D_required_groups": 10.062699890710139,
+      "relative_group_savings_percent": 20.30934068873853
+    },
+    {
+      "threshold": 0.08558108576451384,
+      "B_required_groups": 12.387743742636658,
+      "D_required_groups": 9.836999222653738,
+      "relative_group_savings_percent": 20.59087250250149
+    },
+    {
+      "threshold": 0.08583795582952615,
+      "B_required_groups": 12.14828628292598,
+      "D_required_groups": 9.61129855459735,
+      "relative_group_savings_percent": 20.883502983414893
+    },
+    {
+      "threshold": 0.08609482589453846,
+      "B_required_groups": 11.908828823215302,
+      "D_required_groups": 9.385597886540962,
+      "relative_group_savings_percent": 21.18790163274078
+    },
+    {
+      "threshold": 0.08635169595955078,
+      "B_required_groups": 11.66937136350461,
+      "D_required_groups": 9.159897218484561,
+      "relative_group_savings_percent": 21.504792904854387
+    },
+    {
+      "threshold": 0.08660856602456309,
+      "B_required_groups": 11.42991390379393,
+      "D_required_groups": 8.934196550428172,
+      "relative_group_savings_percent": 21.834961963601096
+    },
+    {
+      "threshold": 0.08686543608957539,
+      "B_required_groups": 11.19045644408325,
+      "D_required_groups": 8.708495882371786,
+      "relative_group_savings_percent": 22.17926117771323
+    },
+    {
+      "threshold": 0.08712230615458771,
+      "B_required_groups": 10.950998984372557,
+      "D_required_groups": 8.482795214315384,
+      "relative_group_savings_percent": 22.538617468409793
+    },
+    {
+      "threshold": 0.08737917621960002,
+      "B_required_groups": 10.711541524661879,
+      "D_required_groups": 8.257094546258996,
+      "relative_group_savings_percent": 22.91404064253357
+    },
+    {
+      "threshold": 0.08763604628461233,
+      "B_required_groups": 10.4720840649512,
+      "D_required_groups": 8.031393878202607,
+      "relative_group_savings_percent": 23.30663286897484
+    },
+    {
+      "threshold": 0.08789291634962464,
+      "B_required_groups": 10.23262660524052,
+      "D_required_groups": 7.805693210146218,
+      "relative_group_savings_percent": 23.71759948566262
+    },
+    {
+      "threshold": 0.08814978641463696,
+      "B_required_groups": 9.993169145529828,
+      "D_required_groups": 7.579992542089818,
+      "relative_group_savings_percent": 24.14826136030609
+    },
+    {
+      "threshold": 0.08840665647964926,
+      "B_required_groups": 9.753711685819148,
+      "D_required_groups": 7.3542918740334295,
+      "relative_group_savings_percent": 24.60006907190232
+    },
+    {
+      "threshold": 0.08866352654466157,
+      "B_required_groups": 9.51425422610847,
+      "D_required_groups": 7.128591205977042,
+      "relative_group_savings_percent": 25.07461923378954
+    },
+    {
+      "threshold": 0.0889203966096739,
+      "B_required_groups": 9.274796766397778,
+      "D_required_groups": 6.902890537920641,
+      "relative_group_savings_percent": 25.573673345279758
+    },
+    {
+      "threshold": 0.0891772666746862,
+      "B_required_groups": 9.0353393066871,
+      "D_required_groups": 6.677189869864252,
+      "relative_group_savings_percent": 26.099179640963442
+    },
+    {
+      "threshold": 0.08943413673969851,
+      "B_required_groups": 8.79588184697642,
+      "D_required_groups": 6.451489201807864,
+      "relative_group_savings_percent": 26.653298508943013
+    },
+    {
+      "threshold": 0.08969100680471082,
+      "B_required_groups": 8.55642438726574,
+      "D_required_groups": 6.225788533751476,
+      "relative_group_savings_percent": 27.23843217714723
+    },
+    {
+      "threshold": 0.08994787686972314,
+      "B_required_groups": 8.316966927555047,
+      "D_required_groups": 6.000087865695075,
+      "relative_group_savings_percent": 27.857259527916245
+    }
+  ],
+  "bootstrap_seed": 20261011,
+  "bootstrap_unit": "14 image geometry groups; trained-seed metrics averaged first",
+  "data_axis": "train geometry groups, not exact simulation sample fraction",
+  "limitations": "four sampled budgets; linear interpolation; post-hoc thresholds; censoring must be retained; renderer/geographic uncertainty",
+  "dataset_arrays_opened": false
+}

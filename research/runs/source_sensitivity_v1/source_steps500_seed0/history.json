@@ -1,0 +1,12 @@
+[
+  {
+    "updates": 250,
+    "train_mae_window": 0.09897223192453385,
+    "validation_map_macro_mae": 0.08561780351613249
+  },
+  {
+    "updates": 500,
+    "train_mae_window": 0.08417719978094101,
+    "validation_map_macro_mae": 0.07911831055368695
+  }
+]

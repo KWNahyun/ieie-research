@@ -1,0 +1,15 @@
+{
+  "A": {
+    "checkpoint_reload": "PASS",
+    "validation_metric_reproduced": "PASS",
+    "loss_decreased": "PASS",
+    "test_samples_read": false
+  },
+  "B": {
+    "checkpoint_reload": "PASS",
+    "validation_metric_reproduced": "PASS",
+    "loss_decreased": "PASS",
+    "test_samples_read": false,
+    "pattern_parameter_absolute_change": 53.41790712252259
+  }
+}
