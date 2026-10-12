@@ -1,0 +1,7 @@
+{
+  "local_source": "/data/knhyun/emf_project/HRFormer/model/hrformer.py",
+  "local_source_sha256": "4cce268ef511889504e6ce15ce6ba922b5f00917bcbe7ec78227730e10aaf7f0",
+  "official_lineage": "https://github.com/HRNet/HRFormer",
+  "license": "MIT; included",
+  "adaptation": "Local HRFormer-S derivative; copied unchanged backbone; seven scalar FiLM/cross-attention/input/decoder adaptations in followup_hrformer.py; dropout/drop-path0 fixed"
+}

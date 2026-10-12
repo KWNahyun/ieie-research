@@ -1,0 +1,14 @@
+{
+  "objective": "finish remaining required empirical work then manuscript",
+  "data_efficiency": "completed descriptive interpolation/censored bootstrap;confirmatory interpretation withheld",
+  "supplementary_metrics_figures_compute": "completed120 frozen checkpoints and15120 sample reproductions;synthetic compute scope declared",
+  "provenance": "available metadata/exhaustive proxy screen completed;physical/geographic/unit unknowns remain documented",
+  "related_method_review": "primary papers/mechanism/protocol differences and8 references recorded",
+  "scalar_settings_reference_experiments": {
+    "status": "running",
+    "verified_cells": 81,
+    "required_cells": 152
+  },
+  "manuscript": "DOCX/reviewPDF/IEEEtran-source renderer smoke passed; gated on152 cells and independent audit; no user language/venue answer received, English draft assumption",
+  "source_codes_unchanged": "original main models/splits/contracts unchanged;follow-up separate code and snapshots"
+}

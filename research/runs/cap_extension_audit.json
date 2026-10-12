@@ -1,0 +1,46 @@
+{
+  "runs": [
+    {
+      "stage": "main_v1",
+      "original_folder": "/data/knhyun/IEIE/research/runs/main_v1/B_budget10_seed2",
+      "original_checkpoint_sha256": "e4ba140ae3911e79cea1481bcffe2426b6ff94782ba14113e36caf8423100c2c",
+      "original_best_validation_mae": 0.08129271861441709,
+      "selected_extension_folder": "/data/knhyun/IEIE/research/runs/main_v1/B_budget10_seed2_cap300",
+      "extension_epochs": 202,
+      "extension_best_validation_mae": 0.0818570525281959,
+      "original_preserved_and_verified": true
+    },
+    {
+      "stage": "main_v1",
+      "original_folder": "/data/knhyun/IEIE/research/runs/main_v1/D_srcseed1_budget10_seed2",
+      "original_checkpoint_sha256": "5ee42e2db521785bd3c876f3205a15b7f56744d354d42f14f67a1f2f846fc288",
+      "original_best_validation_mae": 0.07944364559457258,
+      "selected_extension_folder": "/data/knhyun/IEIE/research/runs/main_v1/D_srcseed1_budget10_seed2_cap300",
+      "extension_epochs": 169,
+      "extension_best_validation_mae": 0.07943024896775132,
+      "original_preserved_and_verified": true
+    },
+    {
+      "stage": "main_v1",
+      "original_folder": "/data/knhyun/IEIE/research/runs/main_v1/D_srcseed0_budget10_seed4",
+      "original_checkpoint_sha256": "cba0c70acc6aa8b682437f4f0eeaac06441ca40f9a0531f4242f6d19443b456a",
+      "original_best_validation_mae": 0.08551664781515245,
+      "selected_extension_folder": "/data/knhyun/IEIE/research/runs/main_v1/D_srcseed0_budget10_seed4_cap300",
+      "extension_epochs": 118,
+      "extension_best_validation_mae": 0.08555967536651427,
+      "original_preserved_and_verified": true
+    },
+    {
+      "stage": "spatial_ablation_v1",
+      "original_folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed4",
+      "original_checkpoint_sha256": "97489184587da1a5d085a6f993f294d7ac458e2257d187e90911ab5ce2e899d6",
+      "original_best_validation_mae": 0.08701206823052081,
+      "selected_extension_folder": "/data/knhyun/IEIE/research/runs/spatial_ablation_v1/A_budget10_seed4_cap300",
+      "extension_epochs": 192,
+      "extension_best_validation_mae": 0.08682605117145513,
+      "original_preserved_and_verified": true
+    }
+  ],
+  "count": 4,
+  "test_arrays_opened": false
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "normalized-image empirical pilot",
+  "updates": 3300,
+  "epochs": 100,
+  "runtime_seconds": 192.3229063730687,
+  "best_validation_mae": 0.07545410624394815,
+  "train_loss_first_epoch": 0.14393853305867224,
+  "train_loss_last_epoch": 0.04144746008695978,
+  "test_accessed": false
+}

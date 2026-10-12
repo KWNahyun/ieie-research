@@ -1,0 +1,32 @@
+[
+  {
+    "updates": 250,
+    "train_mae_window": 0.1028826749920845,
+    "validation_map_macro_mae": 0.08960274881905034
+  },
+  {
+    "updates": 500,
+    "train_mae_window": 0.0860100091099739,
+    "validation_map_macro_mae": 0.08066354363801934
+  },
+  {
+    "updates": 750,
+    "train_mae_window": 0.08114528086781501,
+    "validation_map_macro_mae": 0.07741494865289757
+  },
+  {
+    "updates": 1000,
+    "train_mae_window": 0.07859127426147461,
+    "validation_map_macro_mae": 0.0757615300161498
+  },
+  {
+    "updates": 1250,
+    "train_mae_window": 0.07734386619925498,
+    "validation_map_macro_mae": 0.07576635542015235
+  },
+  {
+    "updates": 1500,
+    "train_mae_window": 0.0748665716201067,
+    "validation_map_macro_mae": 0.06271758271115167
+  }
+]

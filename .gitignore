@@ -1,0 +1,29 @@
+# Local credentials and agent settings
+.aws/
+.codex/
+.agents/
+.env
+.env.*
+*.pem
+*.key
+
+# Original datasets and model artifacts
+data/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+research/geometry_proxy/
+
+# Generated environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+research/vendor/manuscript_deps/
+
+# Keep compact results, protocols, metrics and figures; omit copied code and logs
+research/runs/**/inputs_snapshot/
+research/runs/**/console_logs/
+*.log

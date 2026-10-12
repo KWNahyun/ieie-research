@@ -1,0 +1,149 @@
+{
+  "analysis_sha256": "5823b9c2022915141db746a029f5345584f7a643f9854a2fdc8392ef437a5707",
+  "aggregates": [
+    {
+      "steps": 1500,
+      "source_seed": 0,
+      "budget": 25,
+      "mean_mae": 0.07533749800037454,
+      "seed_sd": 0.0019734811232078138,
+      "B_reduction_percent": 3.474133217294045,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 1500,
+      "source_seed": 0,
+      "budget": 100,
+      "mean_mae": 0.0687367133796215,
+      "seed_sd": 0.000577501830904066,
+      "B_reduction_percent": 2.8575544860253204,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 500,
+      "source_seed": 0,
+      "budget": 25,
+      "mean_mae": 0.07621279172599316,
+      "seed_sd": 0.0008138470181517593,
+      "B_reduction_percent": 2.352666646232961,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 500,
+      "source_seed": 0,
+      "budget": 100,
+      "mean_mae": 0.06953690391907721,
+      "seed_sd": 0.00027993445634104716,
+      "B_reduction_percent": 1.7266818845005627,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 4500,
+      "source_seed": 0,
+      "budget": 25,
+      "mean_mae": 0.07456197920772764,
+      "seed_sd": 0.002294623772636743,
+      "B_reduction_percent": 4.467763556147972,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 4500,
+      "source_seed": 0,
+      "budget": 100,
+      "mean_mae": 0.06820100275684654,
+      "seed_sd": 6.117749336549767e-05,
+      "B_reduction_percent": 3.6146497474290022,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 1500,
+      "source_seed": 1,
+      "budget": 25,
+      "mean_mae": 0.07517194156937393,
+      "seed_sd": 0.00033704874966510154,
+      "B_reduction_percent": 3.686251729694144,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 1500,
+      "source_seed": 1,
+      "budget": 100,
+      "mean_mae": 0.06863447704156976,
+      "seed_sd": 0.0002866845006316347,
+      "B_reduction_percent": 3.002040415166127,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 1500,
+      "source_seed": 2,
+      "budget": 25,
+      "mean_mae": 0.0746548874878589,
+      "seed_sd": 0.0016967097301052378,
+      "B_reduction_percent": 4.34872519531848,
+      "positive_pairs": 3
+    },
+    {
+      "steps": 1500,
+      "source_seed": 2,
+      "budget": 100,
+      "mean_mae": 0.06793060896481261,
+      "seed_sd": 0.0008713250033900346,
+      "B_reduction_percent": 3.9967848964418238,
+      "positive_pairs": 3
+    }
+  ],
+  "source_records": [
+    {
+      "steps": 1500,
+      "source_seed": 0,
+      "selected_updates": 1500,
+      "checkpoint_sha256": "aa6bd82bc7b3497056c1028064188dce39ecbf44a2a9abf399d7b26354c14c77",
+      "updates": 1500,
+      "runtime_seconds": 49.29227609280497,
+      "best_source_validation_mae": 0.06128135123955352,
+      "test_accessed": false
+    },
+    {
+      "steps": 500,
+      "source_seed": 0,
+      "selected_updates": 500,
+      "checkpoint_sha256": "e68304b90869555599c0fb8e89d148aa87d3c88baa1937715349df736a7e4064",
+      "updates": 500,
+      "runtime_seconds": 16.037199690006673,
+      "best_source_validation_mae": 0.07911831055368695,
+      "test_accessed": false
+    },
+    {
+      "steps": 4500,
+      "source_seed": 0,
+      "selected_updates": 4500,
+      "checkpoint_sha256": "c6948835b08d92f77f622c8b1ba5c6f3b65bbeec2811c13b9de5d881b6dd8c59",
+      "updates": 4500,
+      "runtime_seconds": 140.85522022470832,
+      "best_source_validation_mae": 0.04898471098747991,
+      "test_accessed": false
+    },
+    {
+      "steps": 1500,
+      "source_seed": 1,
+      "selected_updates": 1500,
+      "checkpoint_sha256": "ba0fe980e415fd79faf8e6ae27e28c5f2cb71c5ed1881ea514cbf4feb6ffa876",
+      "updates": 1500,
+      "runtime_seconds": 47.18137374985963,
+      "best_source_validation_mae": 0.054738284647464754,
+      "test_accessed": false
+    },
+    {
+      "steps": 1500,
+      "source_seed": 2,
+      "selected_updates": 1500,
+      "checkpoint_sha256": "b5c9f0d492e140d6474de55caf15e8c4701a1896572318366c1533d5ba75bf06",
+      "updates": 1500,
+      "runtime_seconds": 47.207071107812226,
+      "best_source_validation_mae": 0.06271758271115167,
+      "test_accessed": false
+    }
+  ],
+  "target_cap_runs": 0,
+  "decision": "Proceed with preregistered1500-update three-source-seed main comparison, preserving negative outcomes"
+}

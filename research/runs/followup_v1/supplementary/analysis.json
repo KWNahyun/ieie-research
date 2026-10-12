@@ -1,0 +1,169 @@
+{
+  "runs": 120,
+  "sample_metrics": 15120,
+  "aggregates": [
+    {
+      "budget": 10,
+      "model": "A",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8293618502810439
+    },
+    {
+      "budget": 10,
+      "model": "B",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.804183139841949
+    },
+    {
+      "budget": 10,
+      "model": "C",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.7775072879190414
+    },
+    {
+      "budget": 10,
+      "model": "D",
+      "model_count": 15,
+      "test_geometry_macro_ssim": 0.8059788421149915
+    },
+    {
+      "budget": 25,
+      "model": "A",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8522510604008275
+    },
+    {
+      "budget": 25,
+      "model": "B",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8520669442866963
+    },
+    {
+      "budget": 25,
+      "model": "C",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.836188728291854
+    },
+    {
+      "budget": 25,
+      "model": "D",
+      "model_count": 15,
+      "test_geometry_macro_ssim": 0.849984866285985
+    },
+    {
+      "budget": 50,
+      "model": "A",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.862375232862554
+    },
+    {
+      "budget": 50,
+      "model": "B",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8591181160488979
+    },
+    {
+      "budget": 50,
+      "model": "C",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8581181960377513
+    },
+    {
+      "budget": 50,
+      "model": "D",
+      "model_count": 15,
+      "test_geometry_macro_ssim": 0.8584266009664764
+    },
+    {
+      "budget": 100,
+      "model": "A",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8636772989514107
+    },
+    {
+      "budget": 100,
+      "model": "B",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8658669686063813
+    },
+    {
+      "budget": 100,
+      "model": "C",
+      "model_count": 5,
+      "test_geometry_macro_ssim": 0.8662088365613151
+    },
+    {
+      "budget": 100,
+      "model": "D",
+      "model_count": 15,
+      "test_geometry_macro_ssim": 0.864783451455391
+    }
+  ],
+  "compute": {
+    "B": {
+      "parameters": 545121,
+      "batch1_median_latency_ms": 9.149439811706543,
+      "batch1_p95_latency_ms": 9.331743764877318,
+      "warmup": 50,
+      "timed_iterations": 200,
+      "conv_matmul_flops": 20639415104,
+      "estimated_conv_matmul_macs": 10319707552.0,
+      "inference_peak_allocated_bytes": 161157120,
+      "inference_peak_reserved_bytes": 807403520,
+      "synthetic_batch4_forward_backward_peak_allocated_bytes": 1973829120,
+      "flops_scope": "Torch profiler supported conv/matmul operations only; norm/activation/interpolation and other unsupported operations excluded",
+      "timing_scope": "model-only CUDA events, inputs already on GPU; excludes preprocessing/I/O; current shared GPU load; not historical training peak"
+    },
+    "D": {
+      "parameters": 545121,
+      "batch1_median_latency_ms": 9.136047840118408,
+      "batch1_p95_latency_ms": 9.270110416412354,
+      "warmup": 50,
+      "timed_iterations": 200,
+      "conv_matmul_flops": 20639415104,
+      "estimated_conv_matmul_macs": 10319707552.0,
+      "inference_peak_allocated_bytes": 169285632,
+      "inference_peak_reserved_bytes": 819986432,
+      "synthetic_batch4_forward_backward_peak_allocated_bytes": 1980395520,
+      "flops_scope": "Torch profiler supported conv/matmul operations only; norm/activation/interpolation and other unsupported operations excluded",
+      "timing_scope": "model-only CUDA events, inputs already on GPU; excludes preprocessing/I/O; current shared GPU load; not historical training peak"
+    },
+    "A": {
+      "parameters": 488561,
+      "batch1_median_latency_ms": 9.143487930297852,
+      "batch1_p95_latency_ms": 9.20127215385437,
+      "warmup": 50,
+      "timed_iterations": 200,
+      "conv_matmul_flops": 20638291968,
+      "estimated_conv_matmul_macs": 10319145984.0,
+      "inference_peak_allocated_bytes": 169057280,
+      "inference_peak_reserved_bytes": 817889280,
+      "synthetic_batch4_forward_backward_peak_allocated_bytes": 1971983360,
+      "flops_scope": "Torch profiler supported conv/matmul operations only; norm/activation/interpolation and other unsupported operations excluded",
+      "timing_scope": "model-only CUDA events, inputs already on GPU; excludes preprocessing/I/O; current shared GPU load; not historical training peak"
+    },
+    "C": {
+      "parameters": 488561,
+      "batch1_median_latency_ms": 9.13966417312622,
+      "batch1_p95_latency_ms": 9.177800226211549,
+      "warmup": 50,
+      "timed_iterations": 200,
+      "conv_matmul_flops": 20638291968,
+      "estimated_conv_matmul_macs": 10319145984.0,
+      "inference_peak_allocated_bytes": 169057280,
+      "inference_peak_reserved_bytes": 817889280,
+      "synthetic_batch4_forward_backward_peak_allocated_bytes": 1971983360,
+      "flops_scope": "Torch profiler supported conv/matmul operations only; norm/activation/interpolation and other unsupported operations excluded",
+      "timing_scope": "model-only CUDA events, inputs already on GPU; excludes preprocessing/I/O; current shared GPU load; not historical training peak"
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "ssim_scope": "supporting frozen-checkpoint metric, no retraining/selection",
+  "figure_base_ids": [
+    24,
+    36,
+    39,
+    42
+  ],
+  "figure_selection": "lowest base ID of four lowest test geometry groups; budget25 target/source seed0"
+}

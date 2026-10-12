@@ -1,0 +1,239 @@
+{
+  "results": {
+    "scalar": [
+      {
+        "budget": 10,
+        "B_mae": 0.09114348719872181,
+        "D_mae": 0.08908956680230047,
+        "B_minus_D": 0.002053920396421325,
+        "relative_reduction_percent": 2.2535020982279566,
+        "descriptive_geometry_bootstrap95": [
+          0.0006320716219426987,
+          0.003503860155534411
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.13029631968765032,
+        "B_ssim": 0.7993914512558098,
+        "D_rmse": 0.1283302414196509,
+        "D_ssim": 0.8043553043577858,
+        "B_scalar_minus_full_pattern_mae": -0.0012898392620540788,
+        "B_pattern_information_descriptive_bootstrap95": [
+          -0.003485586091669069,
+          0.0009867826246079943
+        ],
+        "D_scalar_minus_full_pattern_mae": -0.0008584100674226795,
+        "D_pattern_information_descriptive_bootstrap95": [
+          -0.002501279187373928,
+          0.0006671930834769253
+        ]
+      },
+      {
+        "budget": 25,
+        "B_mae": 0.08391638894284528,
+        "D_mae": 0.08177319866797282,
+        "B_minus_D": 0.002143190274872476,
+        "relative_reduction_percent": 2.553959127497948,
+        "descriptive_geometry_bootstrap95": [
+          -7.287961987670446e-05,
+          0.004859091677362955
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.12456172593529262,
+        "B_ssim": 0.858856422084534,
+        "D_rmse": 0.1218638477541467,
+        "D_ssim": 0.8511409678855151,
+        "B_scalar_minus_full_pattern_mae": 0.0011375146252768395,
+        "B_pattern_information_descriptive_bootstrap95": [
+          -0.0013105984972346407,
+          0.004023207786330391
+        ],
+        "D_scalar_minus_full_pattern_mae": 0.002068127169416696,
+        "D_pattern_information_descriptive_bootstrap95": [
+          0.0005351054948808798,
+          0.0036897498267214972
+        ]
+      },
+      {
+        "budget": 50,
+        "B_mae": 0.08357178265494958,
+        "D_mae": 0.08192436351150115,
+        "B_minus_D": 0.0016474191434484367,
+        "relative_reduction_percent": 1.9712624179028058,
+        "descriptive_geometry_bootstrap95": [
+          -5.7210042215286086e-05,
+          0.0038309254045918594
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.12365535882020753,
+        "B_ssim": 0.8600719828713533,
+        "D_rmse": 0.12161358262180653,
+        "D_ssim": 0.857642193735629,
+        "B_scalar_minus_full_pattern_mae": 0.004343978954213006,
+        "B_pattern_information_descriptive_bootstrap95": [
+          0.0003148488577691799,
+          0.009129859265974828
+        ],
+        "D_scalar_minus_full_pattern_mae": 0.005048278616692019,
+        "D_pattern_information_descriptive_bootstrap95": [
+          0.001949859141869839,
+          0.00870069503813745
+        ]
+      },
+      {
+        "budget": 100,
+        "B_mae": 0.07997296641152056,
+        "D_mae": 0.07833464433237045,
+        "B_minus_D": 0.0016383220791501266,
+        "relative_reduction_percent": 2.0485948598176758,
+        "descriptive_geometry_bootstrap95": [
+          -0.0005357285215465242,
+          0.004188010541121002
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.11934858447029477,
+        "B_ssim": 0.8653992503413411,
+        "D_rmse": 0.11745003879701019,
+        "D_ssim": 0.8630519081556673,
+        "B_scalar_minus_full_pattern_mae": 0.00620800363757307,
+        "B_pattern_information_descriptive_bootstrap95": [
+          0.0015754212944635306,
+          0.012032325350132477
+        ],
+        "D_scalar_minus_full_pattern_mae": 0.006195741144831858,
+        "D_pattern_information_descriptive_bootstrap95": [
+          0.0029054974932125124,
+          0.010386177760021636
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "settings_per_spreadsheet_row": 1,
+        "training_samples": 178,
+        "train_geometry_groups": 60,
+        "spreadsheet_rows": 178,
+        "fixed_tx": false,
+        "B_mae": 0.0790606136182471,
+        "D_mae": 0.0782025098051659,
+        "B_minus_D": 0.0008581038130811945,
+        "relative_reduction_percent": 1.0853745927455656,
+        "descriptive_geometry_bootstrap95": [
+          -0.0005250864558749693,
+          0.002287692398759266
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.11838553487544967,
+        "B_ssim": 0.858174386591711,
+        "D_rmse": 0.11695780622028801,
+        "D_ssim": 0.8599356078433188
+      },
+      {
+        "settings_per_spreadsheet_row": 2,
+        "training_samples": 356,
+        "train_geometry_groups": 60,
+        "spreadsheet_rows": 178,
+        "fixed_tx": false,
+        "B_mae": 0.07524743051755997,
+        "D_mae": 0.07363902182175368,
+        "B_minus_D": 0.0016084086958062724,
+        "relative_reduction_percent": 2.137493180489305,
+        "descriptive_geometry_bootstrap95": [
+          0.0004991602449722205,
+          0.00255679414587874
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.11427577247931842,
+        "B_ssim": 0.8623019097307789,
+        "D_rmse": 0.1120909393070236,
+        "D_ssim": 0.8632125663259909
+      },
+      {
+        "settings_per_spreadsheet_row": 3,
+        "training_samples": 534,
+        "train_geometry_groups": 60,
+        "spreadsheet_rows": 178,
+        "fixed_tx": false,
+        "B_mae": 0.07376496277394749,
+        "D_mae": 0.07213890318753857,
+        "B_minus_D": 0.0016260595864089151,
+        "relative_reduction_percent": 2.204379322188462,
+        "descriptive_geometry_bootstrap95": [
+          0.0007815025309248648,
+          0.0025546574872479934
+        ],
+        "B_models": 5,
+        "D_models": 15,
+        "B_rmse": 0.11239291300612782,
+        "B_ssim": 0.8658669686063816,
+        "D_rmse": 0.11042314103986851,
+        "D_ssim": 0.8647834514553909
+      }
+    ],
+    "reference": [
+      {
+        "budget": 25,
+        "source_seeds": [
+          0
+        ],
+        "target_seeds": [
+          0,
+          1,
+          2
+        ],
+        "scope": "adapted HRFormer-S+multistage FiLM+CA; shared audited inputs/loss/split; not published outdoor-score reproduction",
+        "B_mae": 0.07194608474574078,
+        "D_mae": 0.06723770207513578,
+        "B_minus_D": 0.004708382670604994,
+        "relative_reduction_percent": 6.544320913701605,
+        "descriptive_geometry_bootstrap95": [
+          0.0034773041001427427,
+          0.005943296702884177
+        ],
+        "B_models": 3,
+        "D_models": 3,
+        "B_rmse": 0.11172205032337279,
+        "B_ssim": 0.8546450468153566,
+        "D_rmse": 0.10519154635923249,
+        "D_ssim": 0.8638579840240265
+      },
+      {
+        "budget": 100,
+        "source_seeds": [
+          0
+        ],
+        "target_seeds": [
+          0,
+          1,
+          2
+        ],
+        "scope": "adapted HRFormer-S+multistage FiLM+CA; shared audited inputs/loss/split; not published outdoor-score reproduction",
+        "B_mae": 0.06222607093868117,
+        "D_mae": 0.05693698525133113,
+        "B_minus_D": 0.005289085687350027,
+        "relative_reduction_percent": 8.499790534038377,
+        "descriptive_geometry_bootstrap95": [
+          0.0038075495049327834,
+          0.00701882242639032
+        ],
+        "B_models": 3,
+        "D_models": 3,
+        "B_rmse": 0.09936104669536233,
+        "B_ssim": 0.8795589974709138,
+        "D_rmse": 0.09341562122461343,
+        "D_ssim": 0.8843436623099404
+      }
+    ]
+  },
+  "runs": 152,
+  "manifest_sha256": "db9bfc28a1b900d9508e003b5df08f9a3c69e3354d4416d0e9d86734f434118a",
+  "bootstrap_unit": "14 image geometry groups; average model seeds first",
+  "bootstrap_seed": 20261012,
+  "scope": "supporting/exploratory after original test was seen; no new blind-test claim",
+  "test_based_model_selection": false
+}

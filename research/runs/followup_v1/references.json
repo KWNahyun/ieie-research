@@ -1,0 +1,75 @@
+[
+  {
+    "key": "radiounet",
+    "authors": "R. Levie, C. Yapar, G. Kutyniok, and G. Caire",
+    "title": "RadioUNet: Fast Radio Map Estimation with Convolutional Neural Networks",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/1911.09002",
+    "role": "Radio-map CNN background; our small U-Net is not the officialRadioWNet architecture"
+  },
+  {
+    "key": "radiomapseer",
+    "authors": "C. Yapar, R. Levie, G. Kutyniok, and G. Caire",
+    "title": "Dataset of Pathloss and ToA Radio Maps With Localization Application",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2212.11777",
+    "role": "Source dataset provenance; local assets701maps instead of publicly described700 requires qualification"
+  },
+  {
+    "key": "film",
+    "authors": "E. Perez, F. Strub, H. de Vries, V. Dumoulin, and A. Courville",
+    "title": "FiLM: Visual Reasoning with a General Conditioning Layer",
+    "year": 2018,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/1709.07871",
+    "role": "Feature-wise affine conditioning is existing method, not a novelty claim"
+  },
+  {
+    "key": "hrformer",
+    "authors": "Y. Yuan, R. Fu, L. Huang, W. Lin, C. Zhang, X. Chen, and J. Wang",
+    "title": "HRFormer: High-Resolution Transformer for Dense Prediction",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2110.09408",
+    "code": "https://github.com/HRNet/HRFormer",
+    "role": "Local-window multi-resolution backbone lineage; MIT local derivative vendored"
+  },
+  {
+    "key": "conditioned_emf",
+    "authors": "D.-E. Kim, D. Park, S. Ahn, N. Kang, S.-h. Kim, and S. Kim",
+    "title": "Multi-Modal Conditioned High-Resolution Transformer for Urban Electromagnetic Field Map Prediction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.27671",
+    "fulltext": "https://arxiv.org/html/2606.27671v1",
+    "role": "Same-target conditioning reference; our adapter changes inputs/loss/split and cannot reproduce publishedoutdoor score"
+  },
+  {
+    "key": "beamrmx",
+    "authors": "Y. Zhang, X. Wang, W. Chen, and N. Cheng",
+    "title": "BeamRMX: Radiation-Pattern-Driven Learning for Generalizable Beam Radio Map Prediction and Beam Management",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.00615",
+    "fulltext": "https://arxiv.org/html/2609.00615v1",
+    "code": "https://github.com/ZY021023/BeamRMX-code",
+    "role": "Pattern-query/geometry interactions and matched/zero-shot generalization already exist; do not claim pattern conditioning itself is new"
+  },
+  {
+    "key": "ssim",
+    "authors": "Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli",
+    "title": "Image Quality Assessment: From Error Visibility to Structural Similarity",
+    "year": 2004,
+    "venue": "IEEE Transactions on Image Processing,13(4)",
+    "url": "https://ece.uwaterloo.ca/~z70wang/publications/ssim.html",
+    "role": "Supplementary structural similarity metric; not physical correctness"
+  },
+  {
+    "key": "tilt_transfer",
+    "authors": "C. Parera, Q. Liao, I. Malanchini, C. Tatino, A. E. C. Redondi, and M. Cesana",
+    "title": "Transfer Learning for Tilt-Dependent Radio Map Prediction",
+    "year": 2020,
+    "venue": "IEEE Transactions on Cognitive Communications and Networking",
+    "url": "https://re.public.polimi.it/handle/11311/1129446",
+    "fulltext": "https://re.public.polimi.it/retrieve/e0c31c0e-e3c4-4599-e053-1705fe0aef77/tccn-parera-2964761-proof.pdf",
+    "role": "Existing transfer across antenna tilt configurations; radio-map transfer itself is not new"
+  }
+]

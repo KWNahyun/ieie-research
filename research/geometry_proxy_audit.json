@@ -1,0 +1,28 @@
+{
+  "building_count": 86,
+  "rule": "B==0 AND G==0 in raw building PNG; no thresholds fitted to labels",
+  "label_files_read": false,
+  "physical_footprint_verified": false,
+  "proxy_fraction_range": [
+    0.072152,
+    0.490904
+  ],
+  "primary_evaluation": "whole raster, not complement-proxy outdoor claim",
+  "original_geometry_availability": "User confirmed original building files and rendering code do not exist",
+  "source_code_evidence": {
+    "preprocessing_notebook": "/home/ailab/Desktop/electro-wave/pytorch_main_preprocessing_for_vit.ipynb",
+    "cells": [
+      7,
+      9,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "meaning": "PNG loading and array saving, not PNG rendering"
+  },
+  "artifacts": "geometry_proxy_manifest.csv and geometry_proxy/*.png"
+}

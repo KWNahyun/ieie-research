@@ -1,0 +1,32 @@
+{
+  "stages": [
+    {
+      "stage": "source_sensitivity_v1",
+      "new_training_stages": 28,
+      "recorded_training_stage_seconds": 6189.848598441109,
+      "recorded_device_run_minutes": 103.16414330735182
+    },
+    {
+      "stage": "main_v1",
+      "new_training_stages": 59,
+      "recorded_training_stage_seconds": 11819.948181658983,
+      "recorded_device_run_minutes": 196.99913636098304
+    },
+    {
+      "stage": "spatial_ablation_v1",
+      "new_training_stages": 41,
+      "recorded_training_stage_seconds": 7824.256237107329,
+      "recorded_device_run_minutes": 130.40427061845548
+    }
+  ],
+  "new_training_stages": 128,
+  "recorded_training_stage_seconds": 25834.05301720742,
+  "includes_original_capped_and_extension_runs": true,
+  "excludes_reused_controls_and_original_source": true,
+  "interpretation": "Sum of recorded training-stage wall times on GPU2; not GPU-active time or total end-to-end wall time",
+  "autonomous_start_utc": "2026-10-10 00:46:34",
+  "last_core_completion_utc": "2026-10-10 08:07:11",
+  "core_elapsed_seconds": 26437,
+  "deadline_utc": "2026-10-10 10:46:34",
+  "optional_crossed_grid_new_stages": 0
+}

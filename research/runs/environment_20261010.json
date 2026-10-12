@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-10 02:18:57 UTC",
+  "python": "3.11.5",
+  "pytorch": "2.7.1+cu118",
+  "torch_cuda_build": "11.8",
+  "cudnn_build": 90501,
+  "numpy": "1.26.4",
+  "opencv": "4.8.1",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "runtime_precision_policy": "source/target trainer float32 with matmul/cudnn TF32 allowed; no AMP",
+  "training_cpu_threads": 2,
+  "gpu_policy": "GPU2 only for new studies; original pilot source seed0 on GPU1; GPU0 excluded",
+  "cuda_visibility_note": "metadata captured in sandbox; live GPU training executes outside sandbox with CUDA_VISIBLE_DEVICES=2"
+}

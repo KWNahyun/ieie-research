@@ -1,0 +1,19 @@
+{
+  "scope": "partial completed sensitivity artifacts only",
+  "verified_count": 11,
+  "runs": [
+    "D_steps4500_srcseed0_budget100_seed0",
+    "D_steps4500_srcseed0_budget25_seed0",
+    "D_steps4500_srcseed0_budget25_seed1",
+    "D_steps500_srcseed0_budget100_seed0",
+    "D_steps500_srcseed0_budget100_seed1",
+    "D_steps500_srcseed0_budget100_seed2",
+    "D_steps500_srcseed0_budget25_seed0",
+    "D_steps500_srcseed0_budget25_seed1",
+    "D_steps500_srcseed0_budget25_seed2",
+    "source_steps4500_seed0",
+    "source_steps500_seed0"
+  ],
+  "checks": "strict load, finite weights/synthetic prediction, selected checkpoint; target paired IDs/normalization/source hash",
+  "test_arrays_opened": false
+}

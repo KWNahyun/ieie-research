@@ -1,0 +1,170 @@
+{
+  "status": "empirical image-proxy pilot allowed; physical geometry/outdoor semantics and geographic provenance remain unresolved",
+  "target_root": "/home/ailab/Desktop/data/preprocessing",
+  "raw_root": "/home/ailab/Desktop/data/emf_data",
+  "base_entries": 768,
+  "augmented_entries": 2304,
+  "configuration_rows": 256,
+  "raw_building_identities": 86,
+  "identity_evidence": "All 768 base entries matched raw B/G images, grayscale labels, spreadsheet numerics, and pattern files.",
+  "entry_mapping": {
+    "base": "0..767; antenna_number=base//256+1, spreadsheet_row=base%256",
+    "augmentation": "768+3*base+j; j=0 horizontal,1 vertical,2 combined"
+  },
+  "numeric_columns": [
+    {
+      "index": 0,
+      "name": "x",
+      "observed_base_range": [
+        1.8881586889853392,
+        499.32953961113776
+      ]
+    },
+    {
+      "index": 1,
+      "name": "y",
+      "observed_base_range": [
+        1.2246736576063881,
+        496.58524167106145
+      ]
+    },
+    {
+      "index": 2,
+      "name": "height",
+      "observed_base_range": [
+        4.6,
+        59.9
+      ]
+    },
+    {
+      "index": 3,
+      "name": "downtilt",
+      "observed_base_range": [
+        0.0,
+        25.0
+      ]
+    },
+    {
+      "index": 4,
+      "name": "power",
+      "observed_base_range": [
+        45.01,
+        56.31999999999999
+      ]
+    },
+    {
+      "index": 5,
+      "name": "azimuth",
+      "observed_base_range": [
+        0.08,
+        289.16
+      ]
+    }
+  ],
+  "numeric_evidence": "emf_project/ViT/utils/data.py:25-61 and exact spreadsheet match at atol=1e-10",
+  "coordinates": {
+    "spreadsheet_to_array": "x=second coordinate token; y=500-first token; z=third token",
+    "raster_tx_candidate": "column=floor(x), row=floor(y); valid for observed interior coordinates, boundary rule must be explicit",
+    "azimuth_loader": "clockwise convention stated in loader; angle conversion implies 0=north,90=east in image coordinates",
+    "stored_horizontal_flip": "x=500-x; azimuth=360-azimuth",
+    "stored_vertical_flip": "y=500-y; azimuth=(540-azimuth)%360",
+    "warning": "Physical GIS origin and meter/pixel not independently verified. Continuous 500-coordinate differs from integer pixel 499-index at exact integer boundaries."
+  },
+  "patterns": {
+    "shape": "[batch,2,360]",
+    "angles": "Raw pattern files explicitly enumerate degrees 0..359; parser preserves row order",
+    "stored_value": "GAIN_dBi - attenuation + 40; validated against every base file",
+    "offset_removal": "Subtracting 40 recovers the file-derived gain-minus-attenuation values, not absolute EMF or a spatial gain map",
+    "frame": "local file frame; reference orientation/vertical-angle semantics not physically validated",
+    "augmentation": "Base-only pilot; stored flips disabled. Physics of local asymmetric pattern reflection remains unresolved."
+  },
+  "building": {
+    "stored": "OpenCV B/G channels divided by 255",
+    "semantics": "Exact PNG provenance verified. Original geometry files and rendering code do not exist according to user; physical channel semantics remain unverified.",
+    "occupancy": "image_geometry_proxy: both encoded B/G channels exactly zero; deterministic and label-independent, not a verified simulator footprint"
+  },
+  "label": {
+    "stored": "OpenCV grayscale field-strength PNG / 255",
+    "unit": "normalized grayscale EMF representation",
+    "physical_inverse": "unverified",
+    "zero": "could include building/nodata/quantization; not established as purely invalid"
+  },
+  "mask": {
+    "empirical_relation": "building_mask == (y>0) exactly for all 3072 entries",
+    "setting_dependence": "85/86 building IDs have different masks across settings",
+    "use": "No model input. Whole-raster normalized MAE/RMSE is the primary empirical pilot evaluation. Optional legacy label-positive diagnostics must be named separately; no verified outdoor-only claim."
+  },
+  "beam": {
+    "generation": "Exact legacy regeneration match for all 3072 entries; depends on scalar and filename beamwidth, not y",
+    "issue": "Legacy point assignment tmp[int(x),int(y)] is transposed relative to fillPoly x/y coordinates; affects 1836 entries",
+    "use": "Exclude from core pilot; corrected generation can be a separate versioned ablation"
+  },
+  "source": {
+    "simulator": "DPM",
+    "maps": 701,
+    "map_ids": "0..700",
+    "pairs": 56080,
+    "tx_per_map": 80,
+    "tx_raster": "column=x,row=255-y; verified against all antenna PNGs",
+    "building": "binary nonzero occupancy candidate, supported by sample polygon overlay; exact polygon rasterization differs",
+    "gain": "grayscale /255 candidate; physical conversion unresolved"
+  },
+  "split": {
+    "target": "60/12/14 conservative building+D4 groups; 534/108/126 base samples",
+    "source": "map/D4 geometry disjoint provisional split",
+    "validation_test": "identity entries only",
+    "train": "base-only initially; no unverified flips",
+    "unresolved": "physical scene identity, overlapping geographic tiles, source-target geographic overlap",
+    "claim_scope": "held-out raw-building/image-geometry groups; does not establish held-out independent geographic scenes"
+  },
+  "readiness": {
+    "ready": [
+      "base provenance",
+      "finite/range audit",
+      "stored augmentation correspondence",
+      "candidate manifests",
+      "group split isolation",
+      "source Tx alignment",
+      "explicit label-independent image proxy for empirical pilot",
+      "whole-raster normalized-image evaluation protocol"
+    ],
+    "pending": [
+      "physical footprint fidelity (not required for explicitly named image-proxy pilot)",
+      "physical outdoor/nodata interpretation (no outdoor-only claim)",
+      "physical scene/tile overlap",
+      "source-target geographic overlap",
+      "pattern/coordinate reflection validation before introducing augmentation"
+    ]
+  },
+  "implementation": {
+    "data_loader": "data_pipeline.py",
+    "model": "baseline_model.py",
+    "trainer": "train_baseline.py",
+    "geometry_mode": "image_proxy",
+    "spatial_input": "[batch,2,H,W]: proxy occupancy then Tx",
+    "conditioning": "7 scalar features (5 original scalars + sin/cos azimuth), two 360-angle patterns",
+    "primary_metric": "whole-raster normalized-image MAE/RMSE, image-geometry-group macro average",
+    "initialization": "A/B share paired encoder/decoder initialization; B adds zero-initialized bottleneck FiLM",
+    "training_scope": "pilot_v1 complete: source seed0 1500 updates, LR screening8, target24 fits; test deferred"
+  },
+  "pilot_v1": {
+    "protocol": "pilot_v1_protocol.md",
+    "report": "pilot_v1_results.md",
+    "artifacts": "runs/pilot_v1",
+    "checkpoint_verification": "runs/pilot_v1/artifact_verification.json",
+    "training_contract_snapshot": "runs/pilot_v1/inputs_snapshot/data_contract.json",
+    "source_seed": 0,
+    "target_seeds": [
+      0,
+      1,
+      2
+    ],
+    "budgets": [
+      25,
+      100
+    ],
+    "fit_count": 24,
+    "epoch_limit_runs": 20,
+    "next": "convergence and source-budget sensitivity before main/test claims"
+  }
+}

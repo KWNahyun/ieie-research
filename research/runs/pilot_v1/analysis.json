@@ -1,0 +1,130 @@
+{
+  "scope": "validation-selected pilot; no independent test inference",
+  "summary": [
+    {
+      "model": "A",
+      "budget": 25,
+      "validation_mae_mean": 0.08827940343568723,
+      "seed_std": 0.000567733386572363,
+      "validation_rmse_mean": 0.12870259093189682,
+      "seeds": 3,
+      "epoch_limit_runs": 3
+    },
+    {
+      "model": "B",
+      "budget": 25,
+      "validation_mae_mean": 0.08462586874763171,
+      "seed_std": 0.0012846911181291453,
+      "validation_rmse_mean": 0.12472010797096623,
+      "seeds": 3,
+      "epoch_limit_runs": 3
+    },
+    {
+      "model": "C",
+      "budget": 25,
+      "validation_mae_mean": 0.08711641088679985,
+      "seed_std": 0.0016726308635132807,
+      "validation_rmse_mean": 0.12606260456420756,
+      "seeds": 3,
+      "epoch_limit_runs": 3
+    },
+    {
+      "model": "D",
+      "budget": 25,
+      "validation_mae_mean": 0.07973669288840925,
+      "seed_std": 0.00333093463802536,
+      "validation_rmse_mean": 0.11915370959926534,
+      "seeds": 3,
+      "epoch_limit_runs": 3
+    },
+    {
+      "model": "A",
+      "budget": 100,
+      "validation_mae_mean": 0.08374379445327285,
+      "seed_std": 0.0009049030920696243,
+      "validation_rmse_mean": 0.1249433524078793,
+      "seeds": 3,
+      "epoch_limit_runs": 2
+    },
+    {
+      "model": "B",
+      "budget": 100,
+      "validation_mae_mean": 0.07195305129812087,
+      "seed_std": 0.0016445955665872084,
+      "validation_rmse_mean": 0.1126517477548785,
+      "seeds": 3,
+      "epoch_limit_runs": 3
+    },
+    {
+      "model": "C",
+      "budget": 100,
+      "validation_mae_mean": 0.08326857198995573,
+      "seed_std": 0.0002548104928518529,
+      "validation_rmse_mean": 0.12368843499801042,
+      "seeds": 3,
+      "epoch_limit_runs": 1
+    },
+    {
+      "model": "D",
+      "budget": 100,
+      "validation_mae_mean": 0.06917824866365134,
+      "seed_std": 0.0011957786290137627,
+      "validation_rmse_mean": 0.10919707107507153,
+      "seeds": 3,
+      "epoch_limit_runs": 2
+    }
+  ],
+  "paired_seed_differences": [
+    {
+      "budget": 25,
+      "seed": 0,
+      "A_minus_C": 0.0005792182421794495,
+      "B_minus_D": 0.00907852976686424,
+      "interaction": 0.008499311524684791
+    },
+    {
+      "budget": 25,
+      "seed": 1,
+      "A_minus_C": 0.0025232364251105976,
+      "B_minus_D": 0.0032927466004535055,
+      "interaction": 0.0007695101753429079
+    },
+    {
+      "budget": 25,
+      "seed": 2,
+      "A_minus_C": 0.00038652297937209756,
+      "B_minus_D": 0.002296251210349598,
+      "interaction": 0.0019097282309775004
+    },
+    {
+      "budget": 100,
+      "seed": 0,
+      "A_minus_C": 0.00109627308254992,
+      "B_minus_D": 0.002772868369464526,
+      "interaction": 0.0016765952869146061
+    },
+    {
+      "budget": 100,
+      "seed": 1,
+      "A_minus_C": 0.0011140651380022598,
+      "B_minus_D": 0.004425141615448172,
+      "interaction": 0.0033110764774459123
+    },
+    {
+      "budget": 100,
+      "seed": 2,
+      "A_minus_C": -0.0007846708306007977,
+      "B_minus_D": 0.00112639791849585,
+      "interaction": 0.0019110687490966477
+    }
+  ],
+  "source_checkpoint_count": 1,
+  "source_checkpoint_sha256": "aa6bd82bc7b3497056c1028064188dce39ecbf44a2a9abf399d7b26354c14c77",
+  "max_epoch_runs": 20,
+  "limitations": [
+    "3 target seeds and 1 source seed",
+    "LR and checkpoint selected on the same validation split",
+    "Source 1500-update budget, target max30epochs may not converge",
+    "Image proxy and unresolved geographical overlap; no outdoor-only/absolute EMF claim"
+  ]
+}
