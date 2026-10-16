@@ -1,0 +1,11 @@
+{
+  "mode": "encoder",
+  "seed": 43,
+  "selected_epoch": 90,
+  "best_validation_mae": 0.06283378247679967,
+  "epochs": 140,
+  "epoch_cap": false,
+  "validation_reload_verified": true,
+  "checkpoint_sha256": "c0482a464625fed5ef3af1647d005b510dcba7a3ef03f728beb028c4170b283e",
+  "test_accessed": false
+}

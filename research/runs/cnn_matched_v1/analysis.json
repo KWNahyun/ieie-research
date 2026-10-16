@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "mode": "base",
+      "mae_mean": 0.07647577188504381,
+      "mae_seed_sd": 0.0028036030918952228,
+      "rmse_mean": 0.11594040687086497,
+      "ssim_mean": 0.898253026813146
+    },
+    {
+      "mode": "encoder",
+      "mae_mean": 0.08123670078686475,
+      "mae_seed_sd": 0.0020969451658901946,
+      "rmse_mean": 0.12085302886457784,
+      "ssim_mean": 0.9017275512954335
+    }
+  ],
+  "paired_pixel_global_differences": [
+    -0.00313107643988432,
+    -0.007807851085087275,
+    -0.0033438591804912515
+  ],
+  "group_macro_difference": -0.0047630284348660476,
+  "group_macro_bootstrap95": [
+    -0.009875778338577352,
+    2.9137166032398607e-05
+  ],
+  "scope": "existing test known; single-source conditional; same data/SQP/loss/evaluation as DINO; architecture and initial pretraining differ"
+}

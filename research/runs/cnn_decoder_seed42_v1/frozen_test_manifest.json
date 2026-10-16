@@ -1,0 +1,16 @@
+{
+  "run": {
+    "mode": "encoder_decoder",
+    "seed": 42,
+    "selected_epoch": 74,
+    "best_validation_mae": 0.0624097746939121,
+    "epochs": 124,
+    "epoch_cap": false,
+    "validation_reload_verified": true,
+    "checkpoint_sha256": "fa1f491eec40a13935bbbf2caa2ee045cbad675721343c98a1b9dd2ebf689f15",
+    "test_accessed": false
+  },
+  "protocol_sha256": "fed6fe4f4144f51043de43814ccd447fdc9a8027812344c7cdf1f855032ef4c5",
+  "source_checkpoint_sha256": "41e7eec9f19d2a297760699f1da27eca88c89d7a9b70cb3217093e7a753ee458",
+  "frozen_at": 1791974298.996095
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "transferred_tensors": 58,
+  "fresh_tensors": 6,
+  "all_parameters_trainable": true,
+  "config_differences": {
+    "decoder_adaptation": [
+      "fresh_full",
+      "source_full"
+    ],
+    "save_dir": [
+      "/data/knhyun/IEIE/research/runs/cnn_matched_v1",
+      "/data/knhyun/IEIE/research/runs/cnn_decoder_seed42_v1"
+    ]
+  }
+}

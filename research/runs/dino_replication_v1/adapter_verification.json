@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "models": {
+    "base": {
+      "trainable_parameters": 21092737,
+      "fresh_conditioning_identical": true
+    },
+    "encoder": {
+      "trainable_parameters": 21092737,
+      "fresh_conditioning_identical": true
+    },
+    "decoder_lora": {
+      "trainable_parameters": 3165761,
+      "fresh_conditioning_identical": true
+    },
+    "decoder_full": {
+      "trainable_parameters": 21092737,
+      "fresh_conditioning_identical": true
+    }
+  },
+  "scope": "CPU native model construction; GPU native target backward separately verified"
+}

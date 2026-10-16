@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "native_shape": [
+    8,
+    1,
+    500,
+    500
+  ],
+  "loss": 0.4840712249279022,
+  "pattern_gradient": true,
+  "film_gradient": true,
+  "same_dino_manifest": true
+}

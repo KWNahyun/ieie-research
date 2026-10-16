@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "strict_source_load": true,
+  "source_decoder_exact": true,
+  "all_decoder_parameters_trainable": true,
+  "scope": "synthetic source checkpoint CPU verification"
+}

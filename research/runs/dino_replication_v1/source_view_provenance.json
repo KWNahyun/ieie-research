@@ -1,0 +1,6 @@
+{
+  "coordinate_manifest_sha256": "2afebe3778edc2f6b1c31c8a20abe4ecc574218e0798fe12e6f999e4137113d3",
+  "existing_png_matches": 56000,
+  "generated_pngs": 0,
+  "rule": "unaltered *_orig PNGs; all 56000 positions match audited row=255-json_y,col=json_x; raw source untouched"
+}

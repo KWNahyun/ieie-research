@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "encoder_exact": true,
+  "all_non_encoder_initial_weights_paired": true,
+  "source_scope": "synthetic CPU fixture"
+}

@@ -1,0 +1,10 @@
+{
+  "finite_loss": 0.39670056104660034,
+  "native_shape": [
+    8,
+    1,
+    500,
+    500
+  ],
+  "pattern_gradient": true
+}

@@ -1,0 +1,78 @@
+{
+  "runs": [
+    {
+      "mode": "base",
+      "seed": 42,
+      "selected_epoch": 118,
+      "best_validation_mae": 0.06016456534892848,
+      "epochs": 168,
+      "epoch_cap": false,
+      "validation_reload_verified": true,
+      "checkpoint_sha256": "bf4f4c094ffebaa810fb8bb4b4ba747eb0de04bb3b3752dee2b8957ea3371abf",
+      "test_accessed": false,
+      "folder": "/data/knhyun/IEIE/research/runs/cnn_matched_v1/base_seed42"
+    },
+    {
+      "mode": "encoder",
+      "seed": 42,
+      "selected_epoch": 125,
+      "best_validation_mae": 0.06073146702004734,
+      "epochs": 175,
+      "epoch_cap": false,
+      "validation_reload_verified": true,
+      "checkpoint_sha256": "5ece8a0969af1b006113e3d047f0987148cc828b0d7f2a55e52ff4d70eeebc4d",
+      "test_accessed": false,
+      "folder": "/data/knhyun/IEIE/research/runs/cnn_matched_v1/encoder_seed42"
+    },
+    {
+      "mode": "base",
+      "seed": 43,
+      "selected_epoch": 169,
+      "best_validation_mae": 0.06088458036900902,
+      "epochs": 200,
+      "epoch_cap": true,
+      "validation_reload_verified": true,
+      "checkpoint_sha256": "97e5b61206569970764e2c5a2ff35cb8f5d63f614d2ce7fbcfe5678424965fd8",
+      "test_accessed": false,
+      "folder": "/data/knhyun/IEIE/research/runs/cnn_matched_v1/base_seed43"
+    },
+    {
+      "mode": "encoder",
+      "seed": 43,
+      "selected_epoch": 90,
+      "best_validation_mae": 0.06283378247679967,
+      "epochs": 140,
+      "epoch_cap": false,
+      "validation_reload_verified": true,
+      "checkpoint_sha256": "c0482a464625fed5ef3af1647d005b510dcba7a3ef03f728beb028c4170b283e",
+      "test_accessed": false,
+      "folder": "/data/knhyun/IEIE/research/runs/cnn_matched_v1/encoder_seed43"
+    },
+    {
+      "mode": "base",
+      "seed": 44,
+      "selected_epoch": 156,
+      "best_validation_mae": 0.061260118954215355,
+      "epochs": 200,
+      "epoch_cap": true,
+      "validation_reload_verified": true,
+      "checkpoint_sha256": "b2eefd14b6028aa3710176ca802b4123c5a1dada835eb68109490f1c807b50e1",
+      "test_accessed": false,
+      "folder": "/data/knhyun/IEIE/research/runs/cnn_matched_v1/base_seed44"
+    },
+    {
+      "mode": "encoder",
+      "seed": 44,
+      "selected_epoch": 158,
+      "best_validation_mae": 0.06142979689066227,
+      "epochs": 200,
+      "epoch_cap": true,
+      "validation_reload_verified": true,
+      "checkpoint_sha256": "4980e8809ea506ebc09f30d01b5e288c74b2b70a3efb56ac4286052d69ea49f7",
+      "test_accessed": false,
+      "folder": "/data/knhyun/IEIE/research/runs/cnn_matched_v1/encoder_seed44"
+    }
+  ],
+  "protocol_sha256": "a164ed3fa6f8295cae6544b8d960c730f3e333f5340ea5612608bc300effddf9",
+  "frozen_at": 1791944374.3148665
+}

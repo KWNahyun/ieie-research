@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "scope": "matched CNN 1 source + 6 targets; final test and manuscript inputs",
+  "checks": [
+    "same DINO manifests",
+    "all six selections frozen",
+    "checkpoint hashes match",
+    "continuous histories including resumed epoch",
+    "validation minima match",
+    "81 samples and 9 test groups",
+    "same valid pixel counts",
+    "independent MAE mean and SD"
+  ],
+  "records": [
+    {
+      "mode": "base",
+      "seed": 42,
+      "best_epoch": 118,
+      "epochs": 168,
+      "epoch_cap": false,
+      "validation_mae": 0.06016456534892848,
+      "mae": 0.07963626279278362,
+      "rmse": 0.1203391677432018,
+      "ssim": 0.8997769900310186,
+      "psnr": 18.391859927650902,
+      "valid_pixels": 14956749
+    },
+    {
+      "mode": "encoder",
+      "seed": 42,
+      "best_epoch": 125,
+      "epochs": 175,
+      "epoch_cap": false,
+      "validation_mae": 0.06073146702004734,
+      "mae": 0.08276733923266794,
+      "rmse": 0.12184481230374979,
+      "ssim": 0.9014221135480904,
+      "psnr": 18.283859134397034,
+      "valid_pixels": 14956749
+    },
+    {
+      "mode": "base",
+      "seed": 43,
+      "best_epoch": 169,
+      "epochs": 200,
+      "epoch_cap": true,
+      "validation_mae": 0.06088458036900902,
+      "mae": 0.07428835000421469,
+      "rmse": 0.11397454444378381,
+      "ssim": 0.8989248445004593,
+      "psnr": 18.86384269994861,
+      "valid_pixels": 14956749
+    },
+    {
+      "mode": "encoder",
+      "seed": 43,
+      "best_epoch": 90,
+      "epochs": 140,
+      "epoch_cap": false,
+      "validation_mae": 0.06283378247679967,
+      "mae": 0.08209620108930196,
+      "rmse": 0.12214160721862245,
+      "ssim": 0.9017443767300358,
+      "psnr": 18.262727391472048,
+      "valid_pixels": 14956749
+    },
+    {
+      "mode": "base",
+      "seed": 44,
+      "best_epoch": 156,
+      "epochs": 200,
+      "epoch_cap": true,
+      "validation_mae": 0.061260118954215355,
+      "mae": 0.07550270285813312,
+      "rmse": 0.11350750842560929,
+      "ssim": 0.8960572459079601,
+      "psnr": 18.899508186165065,
+      "valid_pixels": 14956749
+    },
+    {
+      "mode": "encoder",
+      "seed": 44,
+      "best_epoch": 158,
+      "epochs": 200,
+      "epoch_cap": true,
+      "validation_mae": 0.06142979689066227,
+      "mae": 0.07884656203862438,
+      "rmse": 0.1185726670713613,
+      "ssim": 0.9020161636081743,
+      "psnr": 18.520308227555397,
+      "valid_pixels": 14956749
+    }
+  ],
+  "analysis": {
+    "rows": [
+      {
+        "mode": "base",
+        "mae_mean": 0.07647577188504381,
+        "mae_seed_sd": 0.0028036030918952228,
+        "rmse_mean": 0.11594040687086497,
+        "ssim_mean": 0.898253026813146
+      },
+      {
+        "mode": "encoder",
+        "mae_mean": 0.08123670078686475,
+        "mae_seed_sd": 0.0020969451658901946,
+        "rmse_mean": 0.12085302886457784,
+        "ssim_mean": 0.9017275512954335
+      }
+    ],
+    "paired_pixel_global_differences": [
+      -0.00313107643988432,
+      -0.007807851085087275,
+      -0.0033438591804912515
+    ],
+    "group_macro_difference": -0.0047630284348660476,
+    "group_macro_bootstrap95": [
+      -0.009875778338577352,
+      2.9137166032398607e-05
+    ],
+    "scope": "existing test known; single-source conditional; same data/SQP/loss/evaluation as DINO; architecture and initial pretraining differ"
+  }
+}

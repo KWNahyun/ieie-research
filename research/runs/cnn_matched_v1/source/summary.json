@@ -1,0 +1,11 @@
+{
+  "mode": "source",
+  "seed": 142,
+  "selected_epoch": 50,
+  "best_validation_mae": 0.0200614750416617,
+  "epochs": 50,
+  "epoch_cap": true,
+  "validation_reload_verified": true,
+  "checkpoint_sha256": "41e7eec9f19d2a297760699f1da27eca88c89d7a9b70cb3217093e7a753ee458",
+  "test_accessed": false
+}

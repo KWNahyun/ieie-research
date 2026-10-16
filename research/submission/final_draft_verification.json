@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "supplied_prose_revised_for_review": true,
+  "equations1_and2_repaired": true,
+  "citation_mapping": {
+    "1": 1,
+    "11": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "10": 7,
+    "6": 8,
+    "7": 9,
+    "8": 10,
+    "9": 11
+  },
+  "target_data_description": "restored previous wording at user request",
+  "cnn_purpose_and_interpretation_added": true,
+  "prospective_cnn_decoder_experiment_mentioned": false,
+  "source_files_unchanged": true,
+  "body_tables_preserved": 4,
+  "title_tables_preserved": 2,
+  "native_equations_preserved": 7,
+  "images_preserved": 4,
+  "author_placeholders_retained": true,
+  "output": "/data/knhyun/IEIE/DINOv2_CNN_최종초안.docx",
+  "source_sha256": {
+    "DINOv2_초록_서론_결론.docx": "f008bb29044f046543adb49cdd4481bc435311cba3eefafd9b5917cc81a442ba",
+    "research/submission/DINOv2_CNN_본론_통합검토본.docx": "6df6c5264e3140aec13236144f2ed522156e45420223ff2dabc956d40b4ead91"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "pdf_pages": {
+    "CNN_담당본론_초안": 2,
+    "DINOv2_CNN_본론_통합검토본": 4
+  },
+  "preserved_native_equations": 7,
+  "preserved_teammate_images": 3,
+  "merged_images": 4,
+  "numeric_tables_match_analysis": true,
+  "no_pending_result_placeholders": true,
+  "original_teammate_sha256": "025a828a8363d3dccd07f8b19ac5cd4a2eca20a64cf1ec9c8409ad0077882bda",
+  "template_sha256": "47a1d41f8c90df76ba1e2863e63caf8016f849b80dd9d26d7a2bf071ee9d7f99"
+}
